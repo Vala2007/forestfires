@@ -9,3 +9,12 @@ applications
 example-one
 example-two
 final-words
+análisis-exploratorio-de-datos-eda
+librerías
+datos
+análisis-de-la-variable-target-área
+variables-independientes-numéricas
+variables-independientes-categóricas
+análisis-bivariado-num-vs-num
+análisis-bivariado-num-vs-cat
+introducción

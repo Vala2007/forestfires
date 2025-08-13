@@ -1,0 +1,31 @@
+# Introducción
+
+**Contexto de las variables:**
+
+-   **X:** coordenada en el eje x del parque Montesinho
+
+-   **Y:** coordenada en el eje y del parque Montesinho
+
+-   **month:** mes del año, de enero a diciembre
+
+-   **day:** día de la semana, de lunes a domingo
+
+-   **FFMC:** Fine Fuel Moisture Code
+
+-   **DMC:** Duff Moisture Code
+
+-   **DC:** Drought Code
+
+-   **ISI:** Initial Spread Index
+
+-   **temp:** temperatura en °C
+
+-   **RH:** humedad relativa en %
+
+-   **wind:** velocidad del viento en km/h
+
+-   **rain:** lluvia en mm/m2
+
+-   **area:** variable Target, área quemada del bosque en ha
+
+El objetivo a resolver es **predecir el área de bosque quemada por incendios forestales** en la región noreste de Portugal.
