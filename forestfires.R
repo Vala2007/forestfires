@@ -5,6 +5,7 @@ install.packages("Amelia")
 install.packages("patchwork")
 install.packages("tidyverse")
 install.packages("GGally")
+install.packages("bookdown")
 library(readxl)
 library(Amelia)
 library(tidyverse)
@@ -403,7 +404,7 @@ agrup_day <- df %>%
   mutate(variable = "day", niveles = as.character(day)) %>%
   select(variable, niveles, everything(), -day)
 g2 <- df %>% 
-  ggplot(aes(x = day, y = )) +
+  ggplot(aes(x = day, y = area_log)) +
   geom_boxplot(fill = "#87CEFA", outlier.colour = "red", outlier.shape = 16) +
   stat_summary(fun = mean, geom = "point", shape = 18, size = 3, color = "darkblue") +
   labs(x = "Días de la semana", y = "Área quemada") +
