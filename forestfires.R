@@ -22,7 +22,8 @@ str(datos)
 
 # Valores nulos
 datos %>%
-  summarise(across(everything(), ~sum(is.na(.))))
+  summarise(across(everything(), 
+                   ~sum(is.na(.))))
 
 # Otra formas de mirar NAs
 missmap(datos)
@@ -105,7 +106,7 @@ df %>%
 
 # Variables independientes numéricas ----
 
-ggplot(df, aes(x = X, y = Y, size = area)) +
+ggplot(df, aes(x = X, y = Y, size = area_log)) +
   geom_point(alpha = 0.5, color = "orange") +
   scale_x_continuous(breaks = 1:9) +
   scale_y_continuous(breaks = 1:9) +
@@ -245,7 +246,7 @@ g_mes <- ggplot(tabla_month, aes(x = month, y = Frecuencia)) +
   facet_wrap(~ "Distribución de la variable month") + 
   scale_y_continuous(expand = expansion(mult = c(0, 0.15))) +
   labs(x = "Mes del año", y = "Frecuencia (Porcentaje)") +
-  theme_bw(base_size = 14) +
+  theme_bw(base_size = 8) +
   theme(
     plot.title = element_blank(),
     strip.background = element_rect(fill = "gray80", color = NA),
@@ -269,7 +270,7 @@ g_dia <- ggplot(tabla_day, aes(x = day, y = Frecuencia)) +
   facet_wrap(~ "Distribución de la variable day") + 
   scale_y_continuous(expand = expansion(mult = c(0, 0.15))) +
   labs(x = "Día de la semana", y = "Frecuencia (Porcentaje)") +
-  theme_bw(base_size = 14) +
+  theme_bw(base_size = 8) +
   theme(
     plot.title = element_blank(),
     strip.background = element_rect(fill = "gray80", color = NA),
@@ -283,7 +284,7 @@ g_mes / g_dia
 # Análisis bivariado num vs num ----
 
 df %>% 
-  ggplot(aes(x = FFMC, y = area)) +
+  ggplot(aes(x = FFMC, y = area_log)) +
   geom_point(alpha = 0.4, color = "#1E90FF") +
   geom_smooth(method = "lm", formula = y ~ x, se = FALSE, color = "red") +
   labs(x = "FFMC",
@@ -293,7 +294,7 @@ df %>%
   facet_grid(.~ "Dispersión entre FFMC y área quemada")
 
 df %>% 
-  ggplot(aes(x = DMC, y = area)) +
+  ggplot(aes(x = DMC, y = area_log)) +
   geom_point(alpha = 0.4, color = "#1E90FF") +
   geom_smooth(method = "lm", formula = y ~ x, se = FALSE, color = "red") +
   labs(x = "DMC",
@@ -303,7 +304,7 @@ df %>%
   facet_grid(.~ "Dispersión entre DMC y área quemada")
 
 df %>% 
-  ggplot(aes(x = DC, y = area)) +
+  ggplot(aes(x = DC, y = area_log)) +
   geom_point(alpha = 0.4, color = "#1E90FF") +
   geom_smooth(method = "lm", formula = y ~ x, se = FALSE, color = "red") +
   labs(x = "DMC",
@@ -313,7 +314,7 @@ df %>%
   facet_grid(.~ "Dispersión entre DC y área quemada")
 
 df %>% 
-  ggplot(aes(x = ISI, y = area)) +
+  ggplot(aes(x = ISI, y = area_log)) +
   geom_point(alpha = 0.4, color = "#1E90FF") +
   geom_smooth(method = "lm", formula = y ~ x, se = FALSE, color = "red") +
   labs(x = "ISI",
@@ -323,7 +324,7 @@ df %>%
   facet_grid(.~ "Dispersión entre ISI y área quemada")
 
 df %>% 
-  ggplot(aes(x = temp, y = area)) +
+  ggplot(aes(x = temp, y = area_log)) +
   geom_point(alpha = 0.4, color = "#1E90FF") +
   geom_smooth(method = "lm", formula = y ~ x, se = FALSE, color = "red") +
   labs(x = "Temperatura",
@@ -333,7 +334,7 @@ df %>%
   facet_grid(.~ "Dispersión entre temperatura y área quemada")
 
 df %>% 
-  ggplot(aes(x = RH, y = area)) +
+  ggplot(aes(x = RH, y = area_log)) +
   geom_point(alpha = 0.4, color = "#1E90FF") +
   geom_smooth(method = "lm", formula = y ~ x, se = FALSE, color = "red") +
   labs(x = "Humedad relativa",
@@ -343,7 +344,7 @@ df %>%
   facet_grid(.~ "Dispersión entre RH y área quemada")
 
 df %>% 
-  ggplot(aes(x = rain, y = area)) +
+  ggplot(aes(x = rain, y = area_log)) +
   geom_point(alpha = 0.4, color = "#1E90FF") +
   geom_smooth(method = "lm", formula = y ~ x, se = FALSE, color = "red") +
   labs(x = "Lluvia",
@@ -353,7 +354,7 @@ df %>%
   facet_grid(.~ "Dispersión entre lluvia y área quemada")
 
 df %>% 
-  ggplot(aes(x = DMC, y = area)) +
+  ggplot(aes(x = DMC, y = area_log)) +
   geom_point(alpha = 0.4, color = "#1E90FF") +
   geom_smooth(method = "lm", formula = y ~ x, se = FALSE, color = "red") +
   labs(x = "DMC",
@@ -368,19 +369,19 @@ df %>%
 # Agrupación por "month"
 agrup_month <- df %>%
   group_by(month) %>%
-  summarise(n = length(area),
-            media = mean(area),
-            ds = sd(area),
-            mediana = median(area),
-            minimo = min(area),
-            maximo = max(area),
-            Q1 = quantile(area, 0.25),
-            Q3 = quantile(area, 0.75),
-            IQR = IQR(area)) %>%
+  summarise(n = length(area_log),
+            media = mean(area_log),
+            ds = sd(area_log),
+            mediana = median(area_log),
+            minimo = min(area_log),
+            maximo = max(area_log),
+            Q1 = quantile(area_log, 0.25),
+            Q3 = quantile(area_log, 0.75),
+            IQR = IQR(area_log)) %>%
   mutate(variable = "month", niveles = as.character(month)) %>%
   select(variable, niveles, everything(), -month)
 g1 <- df %>% 
-  ggplot(aes(x = month, y = area)) +
+  ggplot(aes(x = month, y = area_log)) +
   geom_boxplot(fill = "#87CEFA", outlier.colour = "red", outlier.shape = 16) +
   stat_summary(fun = mean, geom = "point", shape = 18, size = 3, color = "darkblue") +
   labs(x = "Mes del año", y = "Área quemada") +
@@ -390,19 +391,19 @@ g1 <- df %>%
 # Agrupación por "day"
 agrup_day <- df %>%
   group_by(day) %>%
-  summarise(n = length(area),
-            media = mean(area),
-            ds = sd(area),
-            mediana = median(area),
-            minimo = min(area),
-            maximo = max(area),
-            Q1 = quantile(area, 0.25),
-            Q3 = quantile(area, 0.75),
-            IQR = IQR(area)) %>%
+  summarise(n = length(area_log),
+            media = mean(area_log),
+            ds = sd(area_log),
+            mediana = median(area_log),
+            minimo = min(area_log),
+            maximo = max(area_log),
+            Q1 = quantile(area_log, 0.25),
+            Q3 = quantile(area_log, 0.75),
+            IQR = IQR(area_log)) %>%
   mutate(variable = "day", niveles = as.character(day)) %>%
   select(variable, niveles, everything(), -day)
 g2 <- df %>% 
-  ggplot(aes(x = day, y = area)) +
+  ggplot(aes(x = day, y = )) +
   geom_boxplot(fill = "#87CEFA", outlier.colour = "red", outlier.shape = 16) +
   stat_summary(fun = mean, geom = "point", shape = 18, size = 3, color = "darkblue") +
   labs(x = "Días de la semana", y = "Área quemada") +
