@@ -18,3 +18,4 @@ variables-independientes-categóricas
 análisis-bivariado-num-vs-num
 análisis-bivariado-num-vs-cat
 introducción
+conclusiones

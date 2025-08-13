@@ -150,6 +150,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.5" data-path="02-literature.html"><a href="#variables-independientes-categ%C3%B3ricas"><i class="fa fa-check"></i><b>2.5</b> Variables independientes categóricas</a></li>
 <li class="chapter" data-level="2.6" data-path="02-literature.html"><a href="#an%C3%A1lisis-bivariado-num-vs-num"><i class="fa fa-check"></i><b>2.6</b> Análisis bivariado num vs num</a></li>
 <li class="chapter" data-level="2.7" data-path="02-literature.html"><a href="#an%C3%A1lisis-bivariado-num-vs-cat"><i class="fa fa-check"></i><b>2.7</b> Análisis bivariado num vs cat</a></li>
+<li class="chapter" data-level="2.8" data-path="análisis-exploratorio-de-datos-eda.html"><a href="análisis-exploratorio-de-datos-eda.html#conclusiones"><i class="fa fa-check"></i><b>2.8</b> Conclusiones</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -241,6 +242,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="análisis-de-la-variable-target-área" class="section level2 hasAnchor" number="2.3">
 <h2><span class="header-section-number">2.3</span> Análisis de la variable target (área)<a href="#an%C3%A1lisis-de-la-variable-target-%C3%A1rea" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>La variable target, <code>area</code>, fue analizada a partir de 517 observaciones.</p>
 <div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="análisis-exploratorio-de-datos-eda.html#cb21-1" tabindex="-1"></a>df <span class="sc">%&gt;%</span></span>
 <span id="cb21-2"><a href="análisis-exploratorio-de-datos-eda.html#cb21-2" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">n=</span><span class="fu">length</span>(area), </span>
 <span id="cb21-3"><a href="análisis-exploratorio-de-datos-eda.html#cb21-3" tabindex="-1"></a>            <span class="at">prom =</span> <span class="fu">mean</span>(area),</span>
@@ -659,6 +661,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## 19 day      sun        95 1.12   1.43    0       0      5.29 0      2.05 2.05</code></pre>
 <div class="sourceCode" id="cb53"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb53-1"><a href="análisis-exploratorio-de-datos-eda.html#cb53-1" tabindex="-1"></a>g1 <span class="sc">/</span> g2</span></code></pre></div>
 <p><img src="bookdown-demo_files/figure-html/unnamed-chunk-31-1.png" width="672" /></p>
+</div>
+<div id="conclusiones" class="section level2 hasAnchor" number="2.8">
+<h2><span class="header-section-number">2.8</span> Conclusiones<a href="análisis-exploratorio-de-datos-eda.html#conclusiones" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>El área quemada sigue un patrón de pocos incendios grandes entre muchísimos pequeños, donde aproximadamente más del 75% de los registros tienen un área quemada menor a 5 hectáreas, influenciado por clima, índices de combustible y época del año, el análisis del área quemada en los incendios forestales en el bosque Montesinho revela un comportamiento altamente sesgado y con distribución desigual.
+Inicialmente se evidencia una relación con las variables del índice FFMC, con valores más acumulados hacia la derecha, y la época del año, siendo agosto y septiembre, por mucho, los meses con más frecuencia de incendios forestales.</p>
 
 
 
