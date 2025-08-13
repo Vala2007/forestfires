@@ -1,6 +1,7 @@
 # Análisis Exploratorio de Datos (EDA)
 
-## Librerías 
+## Librerías
+
 ```{r}
 library(readxl)
 library(Amelia)
@@ -10,7 +11,8 @@ library(patchwork)
 library(dplyr)
 ```
 
-## Datos 
+## Datos
+
 ```{r}
 datos<- read_excel("C:/Users/ASUS/Downloads/forestfires_1_.xlsx")
 ```
@@ -32,11 +34,12 @@ datos %>%
 missmap(datos)
 ```
 
+No hay datos faltantes
+
 ```{r}
 # Crear data frame
 df <- as.data.frame(datos)
 ```
-
 
 ## Análisis de la variable target (área)
 
@@ -77,6 +80,8 @@ df %>%
   ) +
   theme_bw()
 ```
+
+Se aprecia un fuerte sesgo hacia la derecha, debido a que la mayoría de observaciones de la variable área son 0 o valores muy cercanos a este.
 
 ```{r}
 df <- df %>%
@@ -122,9 +127,9 @@ df %>%
 
 ```
 
+Como solución al fuerte sesgo, la variable área se le aplicó area_log = log(area+1). El +1 evita problemas con valores 0, ya que log(0) no está definido. Después de la transformación, los 0 y valores cercanos no varían mucho, pero los extremos bajan considerablemente, resultando en una distribución más manejable para hacer el análisis.
 
-
-## Variables independientes numéricas 
+## Variables independientes numéricas
 
 ```{r}
 df %>% 
@@ -237,7 +242,6 @@ bind_rows(ffmc, dmc, dc, isi, temp, rh, wind, rain) %>%
   select(variable, everything())
 ```
 
-
 ## Variables independientes categóricas
 
 ```{r}
@@ -300,7 +304,6 @@ g_dia <- ggplot(tabla_day, aes(x = day, y = Frecuencia)) +
 ```{r}
 g_mes / g_dia
 ```
-
 
 ## Análisis bivariado num vs num
 
@@ -400,7 +403,6 @@ df %>%
   facet_grid(.~ "Dispersión entre viento y área quemada")
 ```
 
-
 ## Análisis bivariado num vs cat
 
 ```{r}
@@ -455,38 +457,3 @@ g2 <- df %>%
 bind_rows(agrup_month, agrup_day)
 g1 / g2
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
