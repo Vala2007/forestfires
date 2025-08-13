@@ -242,6 +242,33 @@ bind_rows(ffmc, dmc, dc, isi, temp, rh, wind, rain) %>%
   select(variable, everything())
 ```
 
+```{r}
+box_plot_var <- function(data, var, titulo, ylab) {
+  ggplot(data, aes(x = "", y = !!sym(var))) +
+    geom_boxplot(fill = "#a6cee3", color = "#1f78b4", outlier.color = "red") +
+    stat_summary(fun = mean, geom = "point", shape = 20, size = 3, color = "black") +
+    labs(title = titulo, x = "", y = ylab) +
+    theme_bw()
+}
+
+# Crear cada gráfico
+p1 <- box_plot_var(df, "FFMC", "FFMC", "Índice FFMC")
+p2 <- box_plot_var(df, "DMC",  "DMC",  "Índice DMC")
+p3 <- box_plot_var(df, "DC",   "DC",   "Índice DC")
+p4 <- box_plot_var(df, "ISI",  "ISI",  "ISI")
+p5 <- box_plot_var(df, "temp", "temp", "Temperatura")
+p6 <- box_plot_var(df, "RH",   "RH",   "RH")
+p7 <- box_plot_var(df, "wind", "wind", "Viento")
+p8 <- box_plot_var(df, "rain", "rain", "Lluvia")
+
+# Juntar todo en una sola imagen (4 columnas x 2 filas)
+(p1 | p2 | p3 | p4) /
+(p5 | p6 | p7 | p8)
+
+```
+
+
+
 ## Variables independientes categóricas
 
 ```{r}
