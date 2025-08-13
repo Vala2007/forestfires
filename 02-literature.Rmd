@@ -43,6 +43,8 @@ df <- as.data.frame(datos)
 
 ## Análisis de la variable target (área)
 
+La variable target, `area`, fue analizada a partir de 517 observaciones.
+
 ```{r}
 df %>%
   summarise(n=length(area), 
@@ -267,8 +269,6 @@ p8 <- box_plot_var(df, "rain", "rain", "Lluvia")
 
 ```
 
-
-
 ## Variables independientes categóricas
 
 ```{r}
@@ -484,3 +484,17 @@ g2 <- df %>%
 bind_rows(agrup_month, agrup_day)
 g1 / g2
 ```
+
+
+## Conclusiones 
+
+El área quemada sigue un patrón de pocos incendios grandes entre muchísimos pequeños", donde más del 75% de los registros tienen un área quemada menor a 5 hectáreas, influenciado por clima, índices de combustible y época del año, el análisis del área quemada en los incendios forestales en el bosque Montesinho revela un comportamiento altamente sesgado y con distribución desigual. 
+
+
+
+
+
+
+
+
+
