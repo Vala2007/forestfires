@@ -235,6 +235,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## Unknown or uninitialised column: `arguments`.</code></pre>
 <pre><code>## Warning: Unknown or uninitialised column: `imputations`.</code></pre>
 <p><img src="bookdown-demo_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p>No hay datos faltantes</p>
 <div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="análisis-exploratorio-de-datos-eda.html#cb20-1" tabindex="-1"></a><span class="co"># Crear data frame</span></span>
 <span id="cb20-2"><a href="análisis-exploratorio-de-datos-eda.html#cb20-2" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(datos)</span></code></pre></div>
 </div>
@@ -276,6 +277,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb25-15"><a href="análisis-exploratorio-de-datos-eda.html#cb25-15" tabindex="-1"></a>  ) <span class="sc">+</span></span>
 <span id="cb25-16"><a href="análisis-exploratorio-de-datos-eda.html#cb25-16" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code></pre></div>
 <p><img src="bookdown-demo_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p>Se aprecia un fuerte sesgo hacia la derecha, debido a que la mayoría de observaciones de la variable área son 0 o valores muy cercanos a este.</p>
 <div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="análisis-exploratorio-de-datos-eda.html#cb26-1" tabindex="-1"></a>df <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
 <span id="cb26-2"><a href="análisis-exploratorio-de-datos-eda.html#cb26-2" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">area_log =</span> <span class="fu">log1p</span>(area))</span></code></pre></div>
 <div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="análisis-exploratorio-de-datos-eda.html#cb27-1" tabindex="-1"></a>df <span class="sc">%&gt;%</span></span>
@@ -314,6 +316,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb31-15"><a href="análisis-exploratorio-de-datos-eda.html#cb31-15" tabindex="-1"></a>  ) <span class="sc">+</span></span>
 <span id="cb31-16"><a href="análisis-exploratorio-de-datos-eda.html#cb31-16" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code></pre></div>
 <p><img src="bookdown-demo_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
+<p>Como solución al fuerte sesgo, la variable área se le aplicó area_log = log(area+1). El +1 evita problemas con valores 0, ya que log(0) no está definido. Después de la transformación, los 0 y valores cercanos no varían mucho, pero los extremos bajan considerablemente, resultando en una distribución más manejable para hacer el análisis.</p>
 </div>
 <div id="variables-independientes-numéricas" class="section level2 hasAnchor" number="2.4">
 <h2><span class="header-section-number">2.4</span> Variables independientes numéricas<a href="#variables-independientes-num%C3%A9ricas" class="anchor-section" aria-label="Anchor link to header"></a></h2>
