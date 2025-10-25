@@ -1,0 +1,822 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 47%
+	Available Physical Memory: 12690m/23965m
+	Available Page File: 10640m/25501m
+	Available Virtual Memory: 134213452m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 36m
+	Working Set Size: 36m
+	Quota Peak Page Pool Usage: 260k
+	Quota Page Pool Usage: 258k
+	Quota Peak Non Paged Pool Usage:18k
+	Quota Non Paged Pool Usage: 18k
+	Page File Usage: 6m
+	Peak Page File Usage: 6m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 674842
+[00:00:00]: Current time: Mon Jun 16 23:00:50 2025
+
+[00:00:00]: Don't Starve Together: 674842 WIN32_STEAM
+[00:00:00]: Build Date: 3359
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: Steam AppBuildID: 18849277
+[00:00:00]: ....Done
+[00:00:00]: PersistUserStorage is now APP:Klei//DoNotStarveTogether/1694482968/ 
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (18832)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:1.14
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: THREAD - started 'IC' (17908)
+[00:00:00]: Texture Streaming: ENABLED
+[00:00:00]: Texture Streaming: DISABLED
+[00:00:00]: Threaded Renderer: ENABLED
+[00:00:00]: THREAD - started 'SimUpdateThread' (24360)
+[00:00:00]: THREAD - started 'RenderThread' (24828)
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is enabled in the firewall.
+[00:00:01]: WindowsFirewall - Application already authorized
+[00:00:01]: could not load ping_cache
+[00:00:01]: THREAD - started 'StreamInput' (6456)
+[00:00:01]: Offline user ID: OU_76561199654748696
+[00:00:01]: SteamID: 76561199654748696
+[00:00:01]: THREAD - started 'AsynTextureLoadthread' (26432)
+[00:00:01]: THREAD - started 'AsynTextureLoadthread' (2164)
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 Pro
+    version                   10.0.26100
+    platformSpecific          SP 0.0
+    architecture              64 bits
+  CPU                       
+    clockSpeed                2000
+    name                      AMD Ryzen 7 7730U with Radeon Graphics         
+    manufacturer              AuthenticAMD
+    numCores                  8
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 24576
+  GPU                       
+    megsOfRam                 512
+    videoModeDescription      1920 x 1080 x 4294967296 colores
+    name                      AMD Radeon (TM) Graphics
+    driverVersion             31.0.21910.5
+    driverDate                20240104000000.000000-000
+    refreshRate               60
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: WindowManager::Initialize
+[00:00:01]: CreateWindow: Requesting 1280,720 - 5/6/5 - -1/-1/-1 - 0
+[00:00:01]: CreateEGLContext: 16 configs found
+[00:00:01]:      0: 8/8/8 -  0/ 0/ 0 - 0
+[00:00:01]:      1: 8/8/8 -  0/16/ 0 - 0
+[00:00:01]:      2: 8/8/8 -  0/24/ 0 - 0
+[00:00:01]:      3: 8/8/8 -  0/24/ 8 - 0
+[00:00:01]:      4: 5/5/5 -  0/ 0/ 0 - 0
+[00:00:01]:      5: 5/5/5 -  1/ 0/ 0 - 0
+[00:00:01]:      6: 5/5/5 -  0/16/ 0 - 0
+[00:00:01]:      7: 5/5/5 -  1/16/ 0 - 0
+[00:00:01]:      8: 5/5/5 -  0/24/ 0 - 0
+[00:00:01]:      9: 5/5/5 -  1/24/ 0 - 0
+[00:00:01]:     10: 5/5/5 -  0/24/ 8 - 0
+[00:00:01]:     11: 5/5/5 -  1/24/ 8 - 0
+[00:00:01]:     12: 8/8/8 -  8/ 0/ 0 - 0
+[00:00:01]:     13: 8/8/8 -  8/16/ 0 - 0
+[00:00:01]:     14: 8/8/8 -  8/24/ 0 - 0
+[00:00:01]:     15: 8/8/8 -  8/24/ 8 - 0
+[00:00:01]: GLInfo
+[00:00:01]: ~~~~~~
+[00:00:01]: GL_VENDOR: Google Inc.
+[00:00:01]: GL_RENDERER: ANGLE (AMD Radeon (TM) Graphics)
+[00:00:01]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+[00:00:01]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+[00:00:01]: OpenGL extensions (19, 19):
+[00:00:01]: GL_ANGLE_depth_texture
+[00:00:01]: GL_ANGLE_framebuffer_blit
+[00:00:01]: GL_ANGLE_framebuffer_multisample
+[00:00:01]: GL_ANGLE_instanced_arrays
+[00:00:01]: GL_ANGLE_pack_reverse_row_order
+[00:00:01]: GL_ANGLE_texture_compression_dxt3
+[00:00:01]: GL_ANGLE_texture_compression_dxt5
+[00:00:01]: GL_ANGLE_texture_usage
+[00:00:01]: GL_ANGLE_translated_shader_source
+[00:00:01]: GL_EXT_read_format_bgra
+[00:00:01]: GL_EXT_robustness
+[00:00:01]: GL_EXT_texture_compression_dxt1
+[00:00:01]: GL_EXT_texture_format_BGRA8888
+[00:00:01]: GL_EXT_texture_storage
+[00:00:01]: GL_OES_get_program_binary
+[00:00:01]: GL_OES_packed_depth_stencil
+[00:00:01]: GL_OES_rgb8_rgba8
+[00:00:01]: GL_OES_standard_derivatives
+[00:00:01]: GL_OES_texture_npot
+[00:00:01]: GL_MAX_TEXTURE_SIZE = 16384
+[00:00:01]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[00:00:01]: GL_MAX_RENDERBUFFER_SIZE = 16384
+[00:00:01]: GL_MAX_VIEWPORT_DIMS = 16384, 16384
+[00:00:01]: GL_MAX_VARYING_VECTORS = 10
+[00:00:01]: GL_MAX_VERTEX_ATTRIBS = 16
+[00:00:01]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+[00:00:01]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+[00:00:01]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+[00:00:01]: THREAD - started 'WindowsInputManager' (17356)
+[00:00:01]: 4 compressed texture formats
+[00:00:01]: texture format 0x83f0
+[00:00:01]: texture format 0x83f1
+[00:00:01]: texture format 0x83f2
+[00:00:01]: texture format 0x83f3
+[00:00:02]: Renderer initialize: Okay
+[00:00:02]: AnimManager initialize: Okay
+[00:00:02]: Buffers initialize: Okay
+[00:00:02]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:02]: GameSpecific initialize: Okay
+[00:00:02]: cGame::StartPlaying
+[00:00:02]: AppVersion::GetArchitecture() x64
+[00:00:02]: LOADING LUA
+[00:00:02]: DoLuaFile scripts/main.lua
+[00:00:02]: DoLuaFile loading buffer scripts/main.lua
+[00:00:04]:   taskgrouplist:	default	Together	
+[00:00:04]:   taskgrouplist:	classic	Classic	
+[00:00:04]:   taskgrouplist:	cave_default	Underground	
+[00:00:04]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:04]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:04]: Running main.lua
+	
+[00:00:04]: Could not load modindex	
+[00:00:04]: ModIndex: Beginning normal load sequence.
+	
+[00:00:04]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:04]: Failed to load skilltree file itself!	
+[00:00:04]: Trying to apply online cache of skilltree data..	
+[00:00:04]: Which also failed. This error is unrecoverable. Skill tree will be cleared.	
+[00:00:11]: LOADING LUA SUCCESS
+[00:00:12]: PlayerDeaths could not load morgue	
+[00:00:12]: PlayerHistory could not load player_history	
+[00:00:12]: ServerPreferences could not load server_preferences	
+[00:00:12]: ConsoleScreenSettings could not load consolescreen	
+[00:00:12]: bloom_enabled	true	
+[00:00:12]: EnableShadeRenderer: 	true	
+[00:00:12]: OnFilesLoaded()	
+[00:00:12]: OnUpdatePurchaseStateComplete	
+[00:00:12]: Klump load on boot started.	
+[00:00:12]: Klump files loaded: 	0	
+[00:00:13]: 	Load FE	
+[00:00:17]: 	Load FE: done	
+[00:00:17]: THREAD - started 'FilesExistAsyncThread' (24168)
+[00:00:17]: FilesExistAsyncThread started (27072 files)...
+[00:00:17]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/blocklist.txt (Failure)
+[00:00:17]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/adminlist.txt (Failure)
+[00:00:17]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1694482968/client_save/whitelist.txt (Failure)
+[00:00:17]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=CO&lang=spanish&version=674842	
+[00:00:17]: Check for write access: TRUE
+[00:00:17]: Check for read access: TRUE
+[00:00:17]: Available disk space for save files: 857997 MB
+[00:00:17]: ModIndex: Load sequence finished successfully.	
+[00:00:17]: Reset() returning
+[00:00:17]: Do AutoLogin	
+[00:00:17]: [Steam] Auth Session Ticket requested...
+[00:00:17]: [Steam] Got Auth Session Ticket
+[00:00:17]: [MOTD] Done Loading.	
+[00:00:17]: [MOTD] Downloading image for box8 from https://klei-motd.klei.com/dst/kfest2025/steam/en/HTmotd_9896c.tex
+[00:00:18]: [MOTD] MOTDImageLoader: Downloaded image: ../data/images/motd_box8.tex
+[00:00:18]: [MOTD] Downloading image for box4 from https://klei-motd.klei.com/dst/kfest2025/steam/en/moonbound_ches_4fd2a.tex
+[00:00:19]: [MOTD] MOTDImageLoader: Downloaded image: ../data/images/motd_box4.tex
+[00:00:19]: [MOTD] Downloading image for box7 from https://klei-motd.klei.com/dst/kfest2025/steam/en/witchitem_kf_474eb.tex
+[00:00:19]: [200] Account Communication Success (3)
+[00:00:19]: Cached userid (null) saved to APP:Klei//DoNotStarveTogether/1694482968/client_save/cached_userid
+[00:00:19]: Logging in as KU_NMtkZmU6
+[00:00:19]: [MOTD] MOTDImageLoader: Downloaded image: ../data/images/motd_box7.tex
+[00:00:19]: [MOTD] Downloading image for box5 from https://klei-motd.klei.com/dst/kfest2025/steam/en/discord_776e2.tex
+[00:00:20]: [MOTD] MOTDImageLoader: Downloaded image: ../data/images/motd_box5.tex
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/pricing_cache
+[00:00:21]: There is no active event to get the status of.
+[00:00:21]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:0, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 393010:0, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:00:21]: could not load pending_keyvalues_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_cookbook_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_plantregistry_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_generic_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_skilltree_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook0_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook1_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook2_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook3_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook4_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook5_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook6_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook7_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook8_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook9_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook10_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook11_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook12_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook13_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook14_prod
+[00:00:21]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook15_prod
+[00:00:21]: could not load inventory_cache_prod
+[00:00:22]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod
+[00:00:22]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod_sig
+[00:00:23]: [Workshop] ItemQuery got this many results: 0, matching: 0
+[00:00:23]: [Workshop] ModQuery got 0 results
+[00:00:23]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:23]: [Workshop] ItemQuery finished downloading everything
+[00:00:27]: [SetItemOpened_Complete Success:200] {"Error":false,"UserID":"KU_NMtkZmU6","Modified":1750132878.5059235,"ItemID":299741601144715238}
+
+[00:00:33]: cSoundEmitterComponent::PlaySound() already playing sound named [FROMNUM]
+[00:00:35]: cSoundEmitterComponent::PlaySound() already playing sound named [FROMNUM]
+[00:00:54]: [SetItemOpened_Complete Success:200] {"Error":false,"UserID":"KU_NMtkZmU6","Modified":1750132905.7100713,"ItemID":299741601144715236}
+
+[00:01:00]: cSoundEmitterComponent::PlaySound() already playing sound named [FROMNUM]
+[00:01:05]: ... FilesExistAsyncThread complete
+[00:01:09]: [SetItemOpened_Complete Success:200] {"Error":false,"UserID":"KU_NMtkZmU6","Modified":1750132919.9396868,"ItemID":299741601144715237}
+
+[00:01:42]: cSoundEmitterComponent::PlaySound() already playing sound named [FROMNUM]
+[00:01:48]: [Workshop] ItemQuery got this many results: 0, matching: 0
+[00:01:48]: [Workshop] ModQuery got 0 results
+[00:01:48]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:48]: [Workshop] ItemQuery finished downloading everything
+[00:01:53]: Getting top mod details...
+[00:01:53]: [Workshop] ItemQuery got this many results: 0, matching: 0
+[00:01:53]: [Workshop] ModQuery got 0 results
+[00:01:53]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:53]: [Workshop] ItemQuery finished downloading everything
+[00:01:53]: [Workshop] ItemQuery got this many results: 0, matching: 0
+[00:01:53]: [Workshop] ModQuery got 0 results
+[00:01:53]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:01:53]: [Workshop] ItemQuery finished downloading everything
+[00:01:53]: GOT top mod details...50
+[00:02:08]: [Workshop] ItemQuery got this many results: 0, matching: 0
+[00:02:08]: [Workshop] ModQuery got 0 results
+[00:02:08]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:02:08]: [Workshop] ItemQuery finished downloading everything
+[00:02:08]: Frontend-Unloading mod 'all'.	
+[00:02:11]: Getting display mode: Querying display 1 [of 1]
+[00:02:11]: 	\: 1920, 1080, 60
+[00:02:30]: Getting top mod details...
+[00:02:30]: GOT top mod details...50
+[00:02:30]: [Workshop] ItemQuery got this many results: 0, matching: 0
+[00:02:30]: [Workshop] ModQuery got 0 results
+[00:02:30]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:02:30]: [Workshop] ItemQuery finished downloading everything
+[00:02:30]: [Workshop] ItemQuery got this many results: 0, matching: 0
+[00:02:30]: [Workshop] ModQuery got 0 results
+[00:02:30]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:02:30]: [Workshop] ItemQuery finished downloading everything
+[00:02:44]: Frontend-Unloading mod 'all'.	
+[00:02:50]: Getting top mod details...
+[00:02:50]: GOT top mod details...50
+[00:02:50]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:02:50]: [Workshop] ModQuery got 1 results
+[00:02:50]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:02:50]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:02:50]: [Workshop] ItemQuery downloading 1 pending mods marked to download
+[00:02:50]: [Workshop] DownloadPublishedFile [7] 356494979
+[00:02:50]: [Workshop] OnDownloadPublishedUGCFile [1] 356494979
+[00:02:50]: [Workshop] ODPUF noticed this is a legacy item
+[00:02:50]: [Workshop] ODPUF is trying to unpack the mod into folder: C:\Program Files (x86)\Steam\steamapps\workshop\content\322330\356494979\32979936018379065_legacy.bin
+[00:02:50]: [Workshop] ODPUF subscribed mods completed
+[00:02:50]: THREAD - started 'cUnpackModThread' (21108)
+[00:02:50]: [Workshop] UMFD is now trying to unpack the mod
+[00:02:50]: DelDirectory [../mods/workshop-356494979] 2: FAILED
+[00:02:50]: cWorkshopMod::UnzipMod ../mods/workshop-356494979
+[00:03:50]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:03:50]: [Workshop] ModQuery got 1 results
+[00:03:50]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:03:50]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:03:50]: [Workshop] ItemQuery finished downloading everything
+[00:04:00]: Frontend-Unloading mod 'all'.	
+[00:04:02]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:04:02]: [Workshop] ModQuery got 1 results
+[00:04:02]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:04:02]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:04:02]: [Workshop] ItemQuery finished downloading everything
+[00:04:04]: Getting display mode: Querying display 1 [of 1]
+[00:04:04]: 	\: 1920, 1080, 60
+[00:04:14]: Getting top mod details...
+[00:04:14]: GOT top mod details...50
+[00:04:14]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:04:14]: [Workshop] ModQuery got 1 results
+[00:04:14]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:04:14]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:04:14]: [Workshop] ItemQuery finished downloading everything
+[00:04:14]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:04:14]: [Workshop] ModQuery got 1 results
+[00:04:14]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:04:14]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:04:14]: [Workshop] ItemQuery finished downloading everything
+[00:04:56]: Collecting garbage...
+[00:04:56]: lua_gc took 0.09 seconds
+[00:04:56]: ~ShardLuaProxy()
+[00:04:56]: ~cEventLeaderboardProxy()
+[00:04:56]: ~ItemServerLuaProxy()
+[00:04:56]: ~InventoryLuaProxy()
+[00:04:56]: ~NetworkLuaProxy()
+[00:04:56]: ~SimLuaProxy()
+[00:04:56]: [Workshop] CancelDownloads for all pending downloads
+[00:04:56]: lua_close took 0.11 seconds
+[00:04:56]: ReleaseAll
+[00:04:56]: ReleaseAll Finished
+[00:04:56]: cGame::StartPlaying
+[00:04:56]: AppVersion::GetArchitecture() x64
+[00:04:56]: LOADING LUA
+[00:04:56]: DoLuaFile scripts/main.lua
+[00:04:56]: DoLuaFile loading buffer scripts/main.lua
+[00:04:57]:   taskgrouplist:	default	Together	
+[00:04:57]:   taskgrouplist:	classic	Classic	
+[00:04:57]:   taskgrouplist:	cave_default	Underground	
+[00:04:57]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:04:57]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:04:57]: Running main.lua
+	
+[00:04:57]: loaded modindex	
+[00:04:57]: ModIndex: Beginning normal load sequence.
+	
+[00:04:57]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:04:57]: Failed to load skilltree file itself!	
+[00:04:57]: Trying to apply online cache of skilltree data..	
+[00:04:57]: Was a success, using old stored XP values of:	
+[00:04:57]: 	(empty)	
+[00:04:57]: Also using old stored skill selection values of:	
+[00:04:57]: 	(empty)	
+[00:04:57]: Saving skilltree file as a fixup.	
+[00:04:57]: LOADING LUA SUCCESS
+[00:04:57]: PlayerDeaths could not load morgue	
+[00:04:57]: PlayerHistory could not load player_history	
+[00:04:57]: ServerPreferences could not load server_preferences	
+[00:04:57]: ConsoleScreenSettings could not load consolescreen	
+[00:04:57]: bloom_enabled	true	
+[00:04:57]: EnableShadeRenderer: 	true	
+[00:04:57]: loaded shardsaveindex	
+[00:04:57]: OnFilesLoaded()	
+[00:04:57]: OnUpdatePurchaseStateComplete	
+[00:04:57]: Klump load on boot started.	
+[00:04:57]: Klump files loaded: 	0	
+[00:04:57]: 	Unload BE	
+[00:04:57]: 	Unload BE done	
+[00:04:59]: 	Load FE	
+[00:05:00]: 	Load FE: done	
+[00:05:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/blocklist.txt (Failure)
+[00:05:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/adminlist.txt (Failure)
+[00:05:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1694482968/client_save/whitelist.txt (Failure)
+[00:05:00]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=CO&lang=spanish&version=674842	
+[00:05:00]: Check for write access: TRUE
+[00:05:00]: Check for read access: TRUE
+[00:05:00]: Available disk space for save files: 858034 MB
+[00:05:00]: ModIndex: Load sequence finished successfully.	
+[00:05:00]: Reset() returning
+[00:05:00]: Do AutoLogin	
+[00:05:00]: [MOTD] Done Loading.	
+[00:05:00]: [200] Account Communication Success (6)
+[00:05:00]: Received (KU_NMtkZmU6) from TokenPurpose
+[00:05:00]: [Steam] Auth Session Ticket requested...
+[00:05:01]: [Steam] Got Auth Session Ticket
+[00:05:01]: There is no active event to get the status of.
+[00:05:01]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:0, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 393010:0, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:05:01]: could not load pending_keyvalues_prod
+[00:05:02]: loaded inventory_cache_prod
+[00:05:02]: using inventory state token from cached file
+[00:05:02]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod
+[00:05:02]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod_sig
+[00:05:02]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:05:02]: [Workshop] ModQuery got 1 results
+[00:05:02]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:05:02]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:05:02]: [Workshop] ItemQuery finished downloading everything
+[00:05:06]: Getting display mode: Querying display 1 [of 1]
+[00:05:06]: 	\: 1920, 1080, 60
+[00:05:50]: Getting top mod details...
+[00:05:50]: GOT top mod details...50
+[00:05:50]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:05:50]: [Workshop] ModQuery got 1 results
+[00:05:50]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:05:50]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:05:50]: [Workshop] ItemQuery finished downloading everything
+[00:05:50]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:05:50]: [Workshop] ModQuery got 1 results
+[00:05:50]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:05:50]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:05:50]: [Workshop] ItemQuery finished downloading everything
+[00:06:05]: Collecting garbage...
+[00:06:05]: lua_gc took 0.10 seconds
+[00:06:05]: ~ShardLuaProxy()
+[00:06:05]: ~cEventLeaderboardProxy()
+[00:06:05]: ~ItemServerLuaProxy()
+[00:06:05]: ~InventoryLuaProxy()
+[00:06:05]: ~NetworkLuaProxy()
+[00:06:05]: ~SimLuaProxy()
+[00:06:05]: [Workshop] CancelDownloads for all pending downloads
+[00:06:05]: lua_close took 0.11 seconds
+[00:06:05]: ReleaseAll
+[00:06:05]: ReleaseAll Finished
+[00:06:05]: cGame::StartPlaying
+[00:06:05]: AppVersion::GetArchitecture() x64
+[00:06:05]: LOADING LUA
+[00:06:05]: DoLuaFile scripts/main.lua
+[00:06:05]: DoLuaFile loading buffer scripts/main.lua
+[00:06:05]:   taskgrouplist:	default	Together	
+[00:06:05]:   taskgrouplist:	classic	Classic	
+[00:06:05]:   taskgrouplist:	cave_default	Underground	
+[00:06:05]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:06:05]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:06:05]: Running main.lua
+	
+[00:06:05]: loaded modindex	
+[00:06:05]: ModIndex: Beginning normal load sequence.
+	
+[00:06:06]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:06:06]: LOADING LUA SUCCESS
+[00:06:06]: PlayerDeaths could not load morgue	
+[00:06:06]: PlayerHistory could not load player_history	
+[00:06:06]: ServerPreferences could not load server_preferences	
+[00:06:06]: ConsoleScreenSettings could not load consolescreen	
+[00:06:06]: bloom_enabled	true	
+[00:06:06]: EnableShadeRenderer: 	true	
+[00:06:06]: loaded shardsaveindex	
+[00:06:06]: OnFilesLoaded()	
+[00:06:06]: OnUpdatePurchaseStateComplete	
+[00:06:06]: Klump load on boot started.	
+[00:06:06]: Klump files loaded: 	0	
+[00:06:06]: 	Unload BE	
+[00:06:06]: 	Unload BE done	
+[00:06:07]: 	Load FE	
+[00:06:08]: 	Load FE: done	
+[00:06:08]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/blocklist.txt (Failure)
+[00:06:08]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/adminlist.txt (Failure)
+[00:06:08]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1694482968/client_save/whitelist.txt (Failure)
+[00:06:08]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=CO&lang=spanish&version=674842	
+[00:06:08]: Check for write access: TRUE
+[00:06:08]: Check for read access: TRUE
+[00:06:08]: Available disk space for save files: 858029 MB
+[00:06:08]: ModIndex: Load sequence finished successfully.	
+[00:06:08]: Reset() returning
+[00:06:08]: Do AutoLogin	
+[00:06:09]: [200] Account Communication Success (6)
+[00:06:09]: Received (KU_NMtkZmU6) from TokenPurpose
+[00:06:09]: [Steam] Auth Session Ticket requested...
+[00:06:09]: [MOTD] Done Loading.	
+[00:06:09]: There is no active event to get the status of.
+[00:06:09]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:0, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 393010:0, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:06:09]: could not load pending_keyvalues_prod
+[00:06:09]: [Steam] Got Auth Session Ticket
+[00:06:10]: loaded inventory_cache_prod
+[00:06:10]: using inventory state token from cached file
+[00:06:10]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod
+[00:06:10]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod_sig
+[00:06:10]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:06:10]: [Workshop] ModQuery got 1 results
+[00:06:10]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:06:10]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:06:10]: [Workshop] ItemQuery finished downloading everything
+[00:06:16]: Getting display mode: Querying display 1 [of 1]
+[00:06:16]: 	\: 1920, 1080, 60
+[00:06:18]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:06:18]: [Workshop] ModQuery got 1 results
+[00:06:18]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:06:18]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:06:18]: [Workshop] ItemQuery finished downloading everything
+[00:06:19]: Getting top mod details...
+[00:06:19]: GOT top mod details...50
+[00:06:19]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:06:19]: [Workshop] ModQuery got 1 results
+[00:06:19]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:06:19]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:06:19]: [Workshop] ItemQuery finished downloading everything
+[00:06:19]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:06:19]: [Workshop] ModQuery got 1 results
+[00:06:19]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:06:19]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:06:19]: [Workshop] ItemQuery finished downloading everything
+[00:07:19]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:07:19]: [Workshop] ModQuery got 1 results
+[00:07:19]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:07:19]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:07:19]: [Workshop] ItemQuery finished downloading everything
+[00:07:24]: Collecting garbage...
+[00:07:24]: lua_gc took 0.11 seconds
+[00:07:24]: ~ShardLuaProxy()
+[00:07:24]: ~cEventLeaderboardProxy()
+[00:07:24]: ~ItemServerLuaProxy()
+[00:07:24]: ~InventoryLuaProxy()
+[00:07:24]: ~NetworkLuaProxy()
+[00:07:24]: ~SimLuaProxy()
+[00:07:24]: [Workshop] CancelDownloads for all pending downloads
+[00:07:25]: lua_close took 0.11 seconds
+[00:07:25]: ReleaseAll
+[00:07:25]: ReleaseAll Finished
+[00:07:25]: cGame::StartPlaying
+[00:07:25]: AppVersion::GetArchitecture() x64
+[00:07:25]: LOADING LUA
+[00:07:25]: DoLuaFile scripts/main.lua
+[00:07:25]: DoLuaFile loading buffer scripts/main.lua
+[00:07:25]:   taskgrouplist:	default	Together	
+[00:07:25]:   taskgrouplist:	classic	Classic	
+[00:07:25]:   taskgrouplist:	cave_default	Underground	
+[00:07:25]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:07:25]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:07:25]: Running main.lua
+	
+[00:07:25]: loaded modindex	
+[00:07:25]: ModIndex: Beginning normal load sequence.
+	
+[00:07:25]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:07:25]: LOADING LUA SUCCESS
+[00:07:25]: PlayerDeaths could not load morgue	
+[00:07:25]: PlayerHistory could not load player_history	
+[00:07:25]: ServerPreferences could not load server_preferences	
+[00:07:25]: ConsoleScreenSettings could not load consolescreen	
+[00:07:25]: bloom_enabled	true	
+[00:07:25]: EnableShadeRenderer: 	true	
+[00:07:25]: loaded shardsaveindex	
+[00:07:25]: OnFilesLoaded()	
+[00:07:25]: OnUpdatePurchaseStateComplete	
+[00:07:25]: Klump load on boot started.	
+[00:07:25]: Klump files loaded: 	0	
+[00:07:25]: 	Unload BE	
+[00:07:25]: 	Unload BE done	
+[00:07:27]: 	Load FE	
+[00:07:28]: 	Load FE: done	
+[00:07:28]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/blocklist.txt (Failure)
+[00:07:28]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/adminlist.txt (Failure)
+[00:07:28]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1694482968/client_save/whitelist.txt (Failure)
+[00:07:28]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=CO&lang=spanish&version=674842	
+[00:07:28]: Check for write access: TRUE
+[00:07:28]: Check for read access: TRUE
+[00:07:28]: Available disk space for save files: 858025 MB
+[00:07:28]: ModIndex: Load sequence finished successfully.	
+[00:07:28]: Reset() returning
+[00:07:28]: Do AutoLogin	
+[00:07:28]: [MOTD] Done Loading.	
+[00:07:28]: [200] Account Communication Success (6)
+[00:07:28]: Received (KU_NMtkZmU6) from TokenPurpose
+[00:07:28]: [Steam] Auth Session Ticket requested...
+[00:07:29]: [Steam] Got Auth Session Ticket
+[00:07:29]: There is no active event to get the status of.
+[00:07:29]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:0, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 393010:0, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:07:29]: could not load pending_keyvalues_prod
+[00:07:30]: loaded inventory_cache_prod
+[00:07:30]: using inventory state token from cached file
+[00:07:30]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod
+[00:07:30]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod_sig
+[00:07:30]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:07:30]: [Workshop] ModQuery got 1 results
+[00:07:30]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:07:30]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:07:30]: [Workshop] ItemQuery finished downloading everything
+[00:07:33]: Getting display mode: Querying display 1 [of 1]
+[00:07:33]: 	\: 1920, 1080, 60
+[00:07:54]: Getting top mod details...
+[00:07:54]: GOT top mod details...50
+[00:07:54]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:07:54]: [Workshop] ModQuery got 1 results
+[00:07:54]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:07:54]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:07:54]: [Workshop] ItemQuery finished downloading everything
+[00:07:54]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:07:54]: [Workshop] ModQuery got 1 results
+[00:07:54]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:07:54]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:07:54]: [Workshop] ItemQuery finished downloading everything
+[00:08:54]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:08:54]: [Workshop] ModQuery got 1 results
+[00:08:54]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:08:54]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:08:54]: [Workshop] ItemQuery finished downloading everything
+[00:09:01]: Frontend-Unloading mod 'all'.	
+[00:09:28]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:09:28]: [Workshop] ModQuery got 1 results
+[00:09:28]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:09:28]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:09:28]: [Workshop] ItemQuery finished downloading everything
+[00:09:30]: Getting top mod details...
+[00:09:30]: GOT top mod details...50
+[00:09:30]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:09:30]: [Workshop] ModQuery got 1 results
+[00:09:30]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:09:30]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:09:30]: [Workshop] ItemQuery finished downloading everything
+[00:09:30]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:09:30]: [Workshop] ModQuery got 1 results
+[00:09:30]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:09:30]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:09:30]: [Workshop] ItemQuery finished downloading everything
+[00:10:31]: [Workshop] ItemQuery got this many results: 1, matching: 1
+[00:10:31]: [Workshop] ModQuery got 1 results
+[00:10:31]: [Workshop] ModQuery queued to download IDs: 356494979
+[00:10:31]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:10:31]: [Workshop] ItemQuery finished downloading everything
+[00:11:18]: Frontend-Unloading mod 'all'.	
+[00:11:18]: [Workshop] ItemQuery got this many results: 2, matching: 2
+[00:11:18]: [Workshop] ModQuery got 2 results
+[00:11:18]: [Workshop] ModQuery queued to download IDs: 1098843500 356494979
+[00:11:18]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:11:18]: [Workshop] ItemQuery finished downloading everything
+[00:11:19]: Getting top mod details...
+[00:11:19]: GOT top mod details...50
+[00:11:19]: [Workshop] ItemQuery got this many results: 2, matching: 2
+[00:11:19]: [Workshop] ModQuery got 2 results
+[00:11:19]: [Workshop] ModQuery queued to download IDs: 1098843500 356494979
+[00:11:19]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:11:19]: [Workshop] ItemQuery finished downloading everything
+[00:11:19]: [Workshop] ItemQuery got this many results: 2, matching: 2
+[00:11:19]: [Workshop] ModQuery got 2 results
+[00:11:19]: [Workshop] ModQuery queued to download IDs: 1098843500 356494979
+[00:11:19]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:11:19]: [Workshop] ItemQuery finished downloading everything
+[00:11:23]: Collecting garbage...
+[00:11:23]: lua_gc took 0.10 seconds
+[00:11:23]: ~ShardLuaProxy()
+[00:11:23]: ~cEventLeaderboardProxy()
+[00:11:23]: ~ItemServerLuaProxy()
+[00:11:23]: ~InventoryLuaProxy()
+[00:11:23]: ~NetworkLuaProxy()
+[00:11:23]: ~SimLuaProxy()
+[00:11:23]: [Workshop] CancelDownloads for all pending downloads
+[00:11:23]: lua_close took 0.10 seconds
+[00:11:23]: ReleaseAll
+[00:11:23]: ReleaseAll Finished
+[00:11:23]: cGame::StartPlaying
+[00:11:23]: AppVersion::GetArchitecture() x64
+[00:11:23]: LOADING LUA
+[00:11:23]: DoLuaFile scripts/main.lua
+[00:11:23]: DoLuaFile loading buffer scripts/main.lua
+[00:11:23]:   taskgrouplist:	default	Together	
+[00:11:23]:   taskgrouplist:	classic	Classic	
+[00:11:23]:   taskgrouplist:	cave_default	Underground	
+[00:11:23]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:11:23]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:11:23]: Running main.lua
+	
+[00:11:23]: loaded modindex	
+[00:11:23]: ModIndex: Beginning normal load sequence.
+	
+[00:11:24]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:11:24]: LOADING LUA SUCCESS
+[00:11:24]: PlayerDeaths could not load morgue	
+[00:11:24]: PlayerHistory could not load player_history	
+[00:11:24]: ServerPreferences could not load server_preferences	
+[00:11:24]: ConsoleScreenSettings could not load consolescreen	
+[00:11:24]: bloom_enabled	true	
+[00:11:24]: EnableShadeRenderer: 	true	
+[00:11:24]: loaded shardsaveindex	
+[00:11:24]: OnFilesLoaded()	
+[00:11:24]: OnUpdatePurchaseStateComplete	
+[00:11:24]: Klump load on boot started.	
+[00:11:24]: Klump files loaded: 	0	
+[00:11:24]: 	Unload BE	
+[00:11:24]: 	Unload BE done	
+[00:11:25]: 	Load FE	
+[00:11:26]: 	Load FE: done	
+[00:11:26]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/blocklist.txt (Failure)
+[00:11:26]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/adminlist.txt (Failure)
+[00:11:26]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1694482968/client_save/whitelist.txt (Failure)
+[00:11:26]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=CO&lang=spanish&version=674842	
+[00:11:26]: Check for write access: TRUE
+[00:11:26]: Check for read access: TRUE
+[00:11:26]: Available disk space for save files: 857985 MB
+[00:11:26]: ModIndex: Load sequence finished successfully.	
+[00:11:26]: Reset() returning
+[00:11:26]: Do AutoLogin	
+[00:11:27]: [MOTD] Done Loading.	
+[00:11:27]: [200] Account Communication Success (6)
+[00:11:27]: Received (KU_NMtkZmU6) from TokenPurpose
+[00:11:27]: [Steam] Auth Session Ticket requested...
+[00:11:27]: [Steam] Got Auth Session Ticket
+[00:11:27]: There is no active event to get the status of.
+[00:11:27]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:0, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 393010:0, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:11:28]: could not load pending_keyvalues_prod
+[00:11:28]: loaded inventory_cache_prod
+[00:11:28]: using inventory state token from cached file
+[00:11:28]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod
+[00:11:28]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod_sig
+[00:11:29]: [Workshop] ItemQuery got this many results: 2, matching: 2
+[00:11:29]: [Workshop] ModQuery got 2 results
+[00:11:29]: [Workshop] ModQuery queued to download IDs: 1098843500 356494979
+[00:11:29]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:11:29]: [Workshop] ItemQuery finished downloading everything
+[00:11:32]: Getting top mod details...
+[00:11:32]: GOT top mod details...50
+[00:11:32]: [Workshop] ItemQuery got this many results: 2, matching: 2
+[00:11:32]: [Workshop] ModQuery got 2 results
+[00:11:32]: [Workshop] ModQuery queued to download IDs: 1098843500 356494979
+[00:11:32]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:11:32]: [Workshop] ItemQuery finished downloading everything
+[00:11:32]: [Workshop] ItemQuery got this many results: 2, matching: 2
+[00:11:32]: [Workshop] ModQuery got 2 results
+[00:11:32]: [Workshop] ModQuery queued to download IDs: 1098843500 356494979
+[00:11:32]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:11:32]: [Workshop] ItemQuery finished downloading everything
+[00:11:41]: FrontendLoadMod	workshop-1098843500	
+[00:11:41]: Could not load mod_config_data/modconfiguration_workshop-1098843500	
+[00:11:41]: Fontend-Loading mod: workshop-1098843500 (Latin Spanish Client) Version:17042025	
+[00:11:41]: Mod: workshop-1098843500 (Latin Spanish Client)	Loading modservercreationmain.lua	
+[00:11:41]: Mod: workshop-1098843500 (Latin Spanish Client)	  Mod had no modservercreationmain.lua. Skipping.	
+[00:11:41]: Mod: workshop-1098843500 (Latin Spanish Client)	Loading modworldgenmain.lua	
+[00:11:41]: Mod: workshop-1098843500 (Latin Spanish Client)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:11:42]: Collecting garbage...
+[00:11:42]: lua_gc took 0.12 seconds
+[00:11:42]: ~ShardLuaProxy()
+[00:11:42]: ~cEventLeaderboardProxy()
+[00:11:42]: ~ItemServerLuaProxy()
+[00:11:42]: ~InventoryLuaProxy()
+[00:11:42]: ~NetworkLuaProxy()
+[00:11:42]: ~SimLuaProxy()
+[00:11:42]: [Workshop] CancelDownloads for all pending downloads
+[00:11:42]: lua_close took 0.10 seconds
+[00:11:42]: ReleaseAll
+[00:11:42]: ReleaseAll Finished
+[00:11:42]: cGame::StartPlaying
+[00:11:42]: AppVersion::GetArchitecture() x64
+[00:11:42]: LOADING LUA
+[00:11:42]: DoLuaFile scripts/main.lua
+[00:11:42]: DoLuaFile loading buffer scripts/main.lua
+[00:11:43]:   taskgrouplist:	default	Together	
+[00:11:43]:   taskgrouplist:	classic	Classic	
+[00:11:43]:   taskgrouplist:	cave_default	Underground	
+[00:11:43]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:11:43]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:11:43]: Running main.lua
+	
+[00:11:43]: loaded modindex	
+[00:11:43]: ModIndex: Beginning normal load sequence.
+	
+[00:11:43]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1098843500	
+[00:11:43]: Could not load mod_config_data/modconfiguration_workshop-1098843500	
+[00:11:43]: Loading mod: workshop-1098843500 (Latin Spanish Client) Version:17042025	
+[00:11:43]: Mod: workshop-1098843500 (Latin Spanish Client)	Loading modworldgenmain.lua	
+[00:11:43]: Mod: workshop-1098843500 (Latin Spanish Client)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:11:43]: Mod: workshop-1098843500 (Latin Spanish Client)	Loading modmain.lua	
+[00:11:43]: Translator:LoadPOFile - loading file: ../mods/workshop-1098843500/spanish.po	
+[00:11:46]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:11:46]: LOADING LUA SUCCESS
+[00:11:46]: PlayerDeaths could not load morgue	
+[00:11:46]: PlayerHistory could not load player_history	
+[00:11:46]: ServerPreferences could not load server_preferences	
+[00:11:46]: ConsoleScreenSettings could not load consolescreen	
+[00:11:46]: bloom_enabled	true	
+[00:11:46]: EnableShadeRenderer: 	true	
+[00:11:46]: loaded shardsaveindex	
+[00:11:46]: OnFilesLoaded()	
+[00:11:46]: OnUpdatePurchaseStateComplete	
+[00:11:46]: Klump load on boot started.	
+[00:11:46]: Klump files loaded: 	0	
+[00:11:46]: 	Unload BE	
+[00:11:46]: 	Unload BE done	
+[00:11:48]: Mod: workshop-1098843500 (Latin Spanish Client)	Registering prefabs	
+[00:11:48]: Mod: workshop-1098843500 (Latin Spanish Client)	  Registering default mod prefab	
+[00:11:48]: 	Load FE	
+[00:11:49]: 	Load FE: done	
+[00:11:49]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/blocklist.txt (Failure)
+[00:11:49]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/adminlist.txt (Failure)
+[00:11:49]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1694482968/client_save/whitelist.txt (Failure)
+[00:11:49]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=CO&lang=spanish&version=674842	
+[00:11:49]: Check for write access: TRUE
+[00:11:49]: Check for read access: TRUE
+[00:11:49]: Available disk space for save files: 857985 MB
+[00:11:49]: ModIndex: Load sequence finished successfully.	
+[00:11:49]: Reset() returning
+[00:11:49]: [MOTD] Done Loading.	
+[00:11:57]: Do AutoLogin	
+[00:11:57]: [200] Account Communication Success (6)
+[00:11:57]: Received (KU_NMtkZmU6) from TokenPurpose
+[00:11:57]: [Steam] Auth Session Ticket requested...
+[00:11:58]: There is no active event to get the status of.
+[00:11:58]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:0, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 393010:0, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:11:58]: could not load pending_keyvalues_prod
+[00:11:58]: [Steam] Got Auth Session Ticket
+[00:11:58]: loaded inventory_cache_prod
+[00:11:58]: using inventory state token from cached file
+[00:11:58]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod
+[00:11:58]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod_sig
+[00:11:59]: [Workshop] CancelDownloads for all pending downloads
+[00:11:59]: Collecting garbage...
+[00:11:59]: lua_gc took 0.16 seconds
+[00:11:59]: ~ShardLuaProxy()
+[00:11:59]: ~cEventLeaderboardProxy()
+[00:11:59]: ~ItemServerLuaProxy()
+[00:11:59]: ~InventoryLuaProxy()
+[00:11:59]: ~NetworkLuaProxy()
+[00:11:59]: ~SimLuaProxy()
+[00:11:59]: [Workshop] CancelDownloads for all pending downloads
+[00:11:59]: lua_close took 0.12 seconds
+[00:12:00]: [Workshop] CancelDownloads for all pending downloads
+[00:12:00]: [Steam] Auth ticket cancelled
+[00:12:00]: CurlRequestManager::ClientThread::Main() complete
+[00:12:00]: HttpClient2 discarded 0 callbacks.
+[00:12:00]: Shutting down

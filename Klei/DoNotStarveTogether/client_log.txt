@@ -1,0 +1,1207 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 29%
+	Available Physical Memory: 16912m/23965m
+	Available Page File: 16875m/25501m
+	Available Virtual Memory: 134213453m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 36m
+	Working Set Size: 36m
+	Quota Peak Page Pool Usage: 260k
+	Quota Page Pool Usage: 257k
+	Quota Peak Non Paged Pool Usage:18k
+	Quota Non Paged Pool Usage: 18k
+	Page File Usage: 6m
+	Peak Page File Usage: 6m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 676042
+[00:00:00]: Current time: Mon Jun 23 21:55:01 2025
+
+[00:00:00]: Don't Starve Together: 676042 WIN32_STEAM
+[00:00:00]: Build Date: 3375
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: +connect_netid 90269499945476123 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: Steam AppBuildID: 18946142
+[00:00:00]: ....Done
+[00:00:00]: PersistUserStorage is now APP:Klei//DoNotStarveTogether/1694482968/ 
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (10604)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:0.56
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: THREAD - started 'IC' (25232)
+[00:00:00]: Texture Streaming: ENABLED
+[00:00:00]: Texture Streaming: DISABLED
+[00:00:00]: Threaded Renderer: ENABLED
+[00:00:00]: THREAD - started 'SimUpdateThread' (24508)
+[00:00:00]: THREAD - started 'RenderThread' (1096)
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: [Connect] OnDirectJoinRequested( '', '-', '90269499945476123' )
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_steam_x64.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: THREAD - started 'StreamInput' (13240)
+[00:00:00]: loaded ping_cache
+[00:00:00]: Offline user ID: OU_76561199654748696
+[00:00:00]: Cached userid loaded:
+[00:00:00]: SteamID: 76561199654748696
+[00:00:00]: THREAD - started 'AsynTextureLoadthread' (15468)
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 Pro
+    version                   10.0.26100
+    platformSpecific          SP 0.0
+    architecture              64 bits
+  CPU                       
+    clockSpeed                2000
+    name                      AMD Ryzen 7 7730U with Radeon Graphics         
+    manufacturer              AuthenticAMD
+    numCores                  8
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 24576
+  GPU                       
+    megsOfRam                 512
+    videoModeDescription      1920 x 1080 x 4294967296 colores
+    name                      AMD Radeon (TM) Graphics
+    driverVersion             31.0.21910.5
+    driverDate                20240104000000.000000-000
+    refreshRate               60
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: THREAD - started 'AsynTextureLoadthread' (6180)
+[00:00:00]: WindowManager::Initialize
+[00:00:00]: CreateWindow: Requesting 1920,961 - 5/6/5 - -1/-1/-1 - 0
+[00:00:00]: CreateEGLContext: 16 configs found
+[00:00:00]:      0: 8/8/8 -  0/ 0/ 0 - 0
+[00:00:00]:      1: 8/8/8 -  0/16/ 0 - 0
+[00:00:00]:      2: 8/8/8 -  0/24/ 0 - 0
+[00:00:00]:      3: 8/8/8 -  0/24/ 8 - 0
+[00:00:00]:      4: 5/5/5 -  0/ 0/ 0 - 0
+[00:00:00]:      5: 5/5/5 -  1/ 0/ 0 - 0
+[00:00:00]:      6: 5/5/5 -  0/16/ 0 - 0
+[00:00:00]:      7: 5/5/5 -  1/16/ 0 - 0
+[00:00:00]:      8: 5/5/5 -  0/24/ 0 - 0
+[00:00:00]:      9: 5/5/5 -  1/24/ 0 - 0
+[00:00:00]:     10: 5/5/5 -  0/24/ 8 - 0
+[00:00:00]:     11: 5/5/5 -  1/24/ 8 - 0
+[00:00:00]:     12: 8/8/8 -  8/ 0/ 0 - 0
+[00:00:00]:     13: 8/8/8 -  8/16/ 0 - 0
+[00:00:00]:     14: 8/8/8 -  8/24/ 0 - 0
+[00:00:00]:     15: 8/8/8 -  8/24/ 8 - 0
+[00:00:00]: RestoreWindowPosition
+[00:00:00]:    Saved Client Pos (11 x 45)
+[00:00:00]:    Adjusted Window Pos (0 x 0)
+[00:00:00]: EnsureWindowOnScreen
+[00:00:00]:    All good.
+[00:00:00]: GLInfo
+[00:00:00]: ~~~~~~
+[00:00:00]: GL_VENDOR: Google Inc.
+[00:00:00]: GL_RENDERER: ANGLE (AMD Radeon (TM) Graphics)
+[00:00:00]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+[00:00:00]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+[00:00:00]: OpenGL extensions (19, 19):
+[00:00:00]: GL_ANGLE_depth_texture
+[00:00:00]: GL_ANGLE_framebuffer_blit
+[00:00:00]: GL_ANGLE_framebuffer_multisample
+[00:00:00]: GL_ANGLE_instanced_arrays
+[00:00:00]: GL_ANGLE_pack_reverse_row_order
+[00:00:00]: GL_ANGLE_texture_compression_dxt3
+[00:00:00]: GL_ANGLE_texture_compression_dxt5
+[00:00:00]: GL_ANGLE_texture_usage
+[00:00:00]: GL_ANGLE_translated_shader_source
+[00:00:00]: GL_EXT_read_format_bgra
+[00:00:00]: GL_EXT_robustness
+[00:00:00]: GL_EXT_texture_compression_dxt1
+[00:00:00]: GL_EXT_texture_format_BGRA8888
+[00:00:00]: GL_EXT_texture_storage
+[00:00:00]: GL_OES_get_program_binary
+[00:00:00]: GL_OES_packed_depth_stencil
+[00:00:00]: GL_OES_rgb8_rgba8
+[00:00:00]: GL_OES_standard_derivatives
+[00:00:00]: GL_OES_texture_npot
+[00:00:00]: GL_MAX_TEXTURE_SIZE = 16384
+[00:00:00]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[00:00:00]: GL_MAX_RENDERBUFFER_SIZE = 16384
+[00:00:00]: GL_MAX_VIEWPORT_DIMS = 16384, 16384
+[00:00:00]: GL_MAX_VARYING_VECTORS = 10
+[00:00:00]: GL_MAX_VERTEX_ATTRIBS = 16
+[00:00:00]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+[00:00:00]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+[00:00:00]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+[00:00:00]: THREAD - started 'WindowsInputManager' (25900)
+[00:00:00]: 4 compressed texture formats
+[00:00:00]: texture format 0x83f0
+[00:00:00]: texture format 0x83f1
+[00:00:00]: texture format 0x83f2
+[00:00:00]: texture format 0x83f3
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:02]:   taskgrouplist:	default	Together	
+[00:00:02]:   taskgrouplist:	classic	Classic	
+[00:00:02]:   taskgrouplist:	cave_default	Underground	
+[00:00:02]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:02]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:02]: Running main.lua
+	
+[00:00:02]: loaded modindex	
+[00:00:02]: ModIndex: Beginning normal load sequence.
+	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-822508420	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1579421388	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-944320099	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-376333686	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2325441848	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1098843500	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-822508420	
+[00:00:02]: Loading mod: workshop-822508420 (Snow Tile Disabler) Version:0.1.2	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-1579421388	
+[00:00:02]: Loading mod: workshop-1579421388 (Observer Camera) Version:1.3.4	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-351325790	
+[00:00:02]: Loading mod: workshop-351325790 (Geometric Placement) Version:3.2.0	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-944320099	
+[00:00:02]: Loading mod: workshop-944320099 (Critter Pet Mute) Version:1.1	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-376333686	
+[00:00:02]: Loading mod: workshop-376333686 (Combined Status) Version:1.9.2	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-2325441848	
+[00:00:02]: Loading mod: workshop-2325441848 (ActionQueue RB2) Version:1.134	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-1098843500	
+[00:00:02]: Loading mod: workshop-1098843500 (Latin Spanish Client) Version:17042025	
+[00:00:02]: Mod: workshop-2325441848 (ActionQueue RB2)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-2325441848 (ActionQueue RB2)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-2325441848 (ActionQueue RB2)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-376333686 (Combined Status)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-376333686 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-376333686 (Combined Status)	Loading modmain.lua	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-822508420	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1579421388	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-944320099	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-376333686	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2325441848	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1098843500	
+[00:00:02]: Mod: workshop-944320099 (Critter Pet Mute)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-944320099 (Critter Pet Mute)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-944320099 (Critter Pet Mute)	Loading modmain.lua	
+[00:00:02]: dontstarve/creatures/together/perdling/walk	
+[00:00:02]: dontstarve/creatures/together/perdling/nuzzle	
+[00:00:02]: dontstarve/creatures/together/perdling/wingflap	
+[00:00:02]: dontstarve/creatures/together/perdling/distress	
+[00:00:02]: dontstarve/creatures/together/perdling/eat_pre	
+[00:00:02]: dontstarve/creatures/together/perdling/distress_long	
+[00:00:02]: dontstarve/creatures/together/perdling/sleep_pre	
+[00:00:02]: dontstarve/creatures/together/perdling/sleep_in	
+[00:00:02]: dontstarve/creatures/together/perdling/sleep_out	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/buttstomp	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/buttstomp_voice	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/blink	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/sleep_pre	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/emote_flame	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/swipe	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/emote_combat	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/emote_combat_2	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/eat_pre	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/eat	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/angry	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/emote	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/fly_LP	
+[00:00:02]: dontstarve_DLC001/creatures/together/dragonling/sleep	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/emote1	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/emote2	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/emote_nuzzle	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/idle	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/emote_cute	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/emote_combat	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/interact_active	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/interact_passive	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/vo_cute	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/eat_pre	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/eat_LP	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/distress	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/walk	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/emote_pet	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/sleep_pre	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/sleep_in	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/sleep_out	
+[00:00:02]: turnoftides/creatures/together/lunarmothling/sleep_pst	
+[00:00:02]: dontstarve/creatures/together/sheepington/stallion	
+[00:00:02]: dontstarve/creatures/together/sheepington/walk	
+[00:00:02]: dontstarve/creatures/together/sheepington/grunt	
+[00:00:02]: dontstarve/creatures/together/sheepington/yell	
+[00:00:02]: dontstarve/creatures/together/sheepington/curious	
+[00:00:02]: dontstarve/creatures/together/sheepington/chew	
+[00:00:02]: dontstarve/creatures/together/sheepington/angry	
+[00:00:02]: dontstarve/creatures/together/sheepington/bodyfall	
+[00:00:02]: dontstarve/creatures/together/sheepington/sleep	
+[00:00:02]: dontstarve_DLC001/creatures/together/kittington/yawn	
+[00:00:02]: dontstarve_DLC001/creatures/together/kittington/emote_lick	
+[00:00:02]: dontstarve_DLC001/creatures/together/kittington/emote	
+[00:00:02]: dontstarve_DLC001/creatures/together/kittington/emote_nuzzle	
+[00:00:02]: dontstarve_DLC001/creatures/together/kittington/hiss	
+[00:00:02]: dontstarve_DLC001/creatures/together/kittington/pounce	
+[00:00:02]: dontstarve_DLC001/creatures/together/kittington/eat_pre	
+[00:00:02]: dontstarve_DLC001/creatures/together/kittington/eat	
+[00:00:02]: dontstarve_DLC001/creatures/together/kittington/disstress	
+[00:00:02]: dontstarve_DLC001/creatures/together/kittington/sleep	
+[00:00:02]: dontstarve/creatures/together/pupington/emote_scratch	
+[00:00:02]: dontstarve/creatures/together/pupington/pant	
+[00:00:02]: dontstarve/creatures/together/pupington/bark	
+[00:00:02]: dontstarve/creatures/together/pupington/tail	
+[00:00:02]: dontstarve/creatures/together/pupington/growl	
+[00:00:02]: dontstarve/creatures/together/pupington/sleep	
+[00:00:02]: dontstarve_DLC001/creatures/together/glomling/flap_LP	
+[00:00:02]: dontstarve_DLC001/creatures/together/glomling/bounce_voice	
+[00:00:02]: dontstarve_DLC001/creatures/together/glomling/bounce_ground	
+[00:00:02]: dontstarve_DLC001/creatures/together/glomling/emote_2	
+[00:00:02]: dontstarve_DLC001/creatures/together/glomling/emote_combat	
+[00:00:02]: dontstarve_DLC001/creatures/together/glomling/clap	
+[00:00:02]: dontstarve_DLC001/creatures/together/glomling/eat_loop	
+[00:00:02]: dontstarve_DLC001/creatures/together/glomling/vomit_voice	
+[00:00:02]: Mod: workshop-1098843500 (Latin Spanish Client)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-1098843500 (Latin Spanish Client)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-1098843500 (Latin Spanish Client)	Loading modmain.lua	
+[00:00:02]: Translator:LoadPOFile - loading file: ../mods/workshop-1098843500/spanish.po	
+[00:00:04]: Mod: workshop-1579421388 (Observer Camera)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-1579421388 (Observer Camera)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-1579421388 (Observer Camera)	Loading modmain.lua	
+[00:00:04]: Mod: workshop-822508420 (Snow Tile Disabler)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-822508420 (Snow Tile Disabler)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-822508420 (Snow Tile Disabler)	Loading modmain.lua	
+[00:00:04]: Mod: workshop-351325790 (Geometric Placement)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-351325790 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-351325790 (Geometric Placement)	Loading modmain.lua	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-822508420	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1579421388	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-944320099	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-376333686	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2325441848	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1098843500	
+[00:00:04]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:07]: LOADING LUA SUCCESS
+[00:00:07]: PlayerDeaths loaded morgue	333	
+[00:00:07]: PlayerHistory loaded player_history (v2) len:219	
+[00:00:07]: ServerPreferences loaded server_preferences	2	
+[00:00:07]: ConsoleScreenSettings loaded consolescreen	18	
+[00:00:07]: bloom_enabled	true	
+[00:00:07]: EnableShadeRenderer: 	true	
+[00:00:07]: loaded shardsaveindex	
+[00:00:07]: OnFilesLoaded()	
+[00:00:07]: OnUpdatePurchaseStateComplete	
+[00:00:07]: Klump load on boot started.	
+[00:00:07]: Klump files loaded: 	0	
+[00:00:09]: Mod: workshop-2325441848 (ActionQueue RB2)	Registering prefabs	
+[00:00:09]: Mod: workshop-2325441848 (ActionQueue RB2)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-376333686 (Combined Status)	Registering prefabs	
+[00:00:09]: Mod: workshop-376333686 (Combined Status)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-944320099 (Critter Pet Mute)	Registering prefabs	
+[00:00:09]: Mod: workshop-944320099 (Critter Pet Mute)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-1098843500 (Latin Spanish Client)	Registering prefabs	
+[00:00:09]: Mod: workshop-1098843500 (Latin Spanish Client)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-1579421388 (Observer Camera)	Registering prefabs	
+[00:00:09]: Mod: workshop-1579421388 (Observer Camera)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-822508420 (Snow Tile Disabler)	Registering prefabs	
+[00:00:09]: Mod: workshop-822508420 (Snow Tile Disabler)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-351325790 (Geometric Placement)	Registering prefabs	
+[00:00:09]: Mod: workshop-351325790 (Geometric Placement)	  Registering prefab file: prefabs/actiongridplacer	
+[00:00:09]: Mod: workshop-351325790 (Geometric Placement)	    till_actiongridplacer	
+[00:00:09]: Mod: workshop-351325790 (Geometric Placement)	  Registering prefab file: prefabs/buildgridplacer	
+[00:00:09]: Mod: workshop-351325790 (Geometric Placement)	    buildgridplacer	
+[00:00:09]: Mod: workshop-351325790 (Geometric Placement)	  Registering default mod prefab	
+[00:00:09]: 	Load FE	
+[00:00:10]: 	Load FE: done	
+[00:00:10]: THREAD - started 'FilesExistAsyncThread' (27640)
+[00:00:10]: FilesExistAsyncThread started (27076 files)...
+[00:00:10]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/blocklist.txt (Failure)
+[00:00:10]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/adminlist.txt (Failure)
+[00:00:10]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1694482968/client_save/whitelist.txt (Failure)
+[00:00:10]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=CO&lang=spanish&version=676042	
+[00:00:10]: Check for write access: TRUE
+[00:00:10]: Check for read access: TRUE
+[00:00:10]: Available disk space for save files: 858894 MB
+[00:00:10]: ModIndex: Load sequence finished successfully.	
+[00:00:10]: Reset() returning
+[00:00:10]: ForceAuthenticationDialog
+[00:00:10]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/blocklist.txt (Failure)
+[00:00:10]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/adminlist.txt (Failure)
+[00:00:10]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1694482968/client_save/whitelist.txt (Failure)
+[00:00:10]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=CO&lang=spanish&version=676042	
+[00:00:10]: cSoundEmitterComponent::PlaySound() already playing sound named [FROMNUM]
+[00:00:10]: [Steam] Auth Session Ticket requested...
+[00:00:10]: [Steam] Got Auth Session Ticket
+[00:00:10]: [MOTD] Done Loading.	
+[00:00:10]: [MOTD] Done Loading.	
+[00:00:11]: [200] Account Communication Success (3)
+[00:00:11]: Logging in as KU_NMtkZmU6
+[00:00:12]: There is no active event to get the status of.
+[00:00:12]: [DLCS] 0, 2132800:0, 1338540:0, 1485060:0, 2236180:0, 282470:0, 840750:0, 1558300:0, 1205500:0, 1084430:0, 1289760:0, 1899050:0, 1051700:0, 3155070:0, 1205501:0, 981701:0, 840770:0, 1167510:0, 1447360:0, 981700:0, 840760:0, 382560:0, 1694780:0, 1874370:0, 798750:0, 1522880:0, 1230830:0, 1710241:0, 457140:0, 1172860:0, 1272440:0, 1710240:0, 2241030:0, 2711510:0, 3373370:0, 393010:0, 987340:0, 2058281:0, 962960:0, 1167330:0, 2170670:0, 2058280:0, 798740:0, 2170671:0, 1612410:0, 1836630:0, 2769680:0, 3373360:0, 974740:0, 1698560:0, 2377640:0, 2007370:0, 712640:0, 981702:0
+[00:00:12]: ... FilesExistAsyncThread complete
+[00:00:12]: could not load pending_keyvalues_prod
+[00:00:12]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_skilltree_prod
+[00:00:12]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook3_prod
+[00:00:12]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook4_prod
+[00:00:12]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook5_prod
+[00:00:12]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook6_prod
+[00:00:12]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook8_prod
+[00:00:12]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook9_prod
+[00:00:12]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/keyvalue_scrapbook11_prod
+[00:00:12]: loaded inventory_cache_prod
+[00:00:12]: using inventory state token from cached file
+[00:00:13]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod
+[00:00:13]: saved APP:Klei//DoNotStarveTogether/1694482968/client_save/inventory_cache_prod_sig
+[00:00:13]: [Workshop] CancelDownloads for all pending downloads
+[00:00:13]: [Connect] InternalInitClient <5901514848069390040>
+[00:00:13]: [Shard] Starting shard mode as player
+[00:00:13]: [Connect] No server listing found for <UNASSIGNED_RAKNET_GUID>
+[00:00:13]: [Connect] Sending ping(s)...
+[00:00:13]: [P2P] Create session: 11.23.159.5|1 '90269499945476123'
+[00:00:13]: [Connect] Punchthrough address is 11.23.159.5|1.
+[00:00:13]: [Connect] Punchthrough Ping 11.23.159.5|1
+[00:00:13]: [P2P] Sent to 11.23.159.5|1 '90269499945476123'
+[00:00:13]: [Connect] Punchthrough Ping 11.23.159.5|1
+[00:00:13]: [Connect] Punchthrough Ping 11.23.159.5|1
+[00:00:14]: [Connect] Punchthrough Ping 11.23.159.5|1
+[00:00:14]: [Connect] Punchthrough Ping 11.23.159.5|1
+[00:00:14]: [Connect] Punchthrough Ping 11.23.159.5|1
+[00:00:14]: [Connect] Punchthrough Ping 11.23.159.5|1
+[00:00:14]: [Connect] Punchthrough Ping 11.23.159.5|1
+[00:00:15]: [Connect] Punchthrough Ping 11.23.159.5|1
+[00:00:18]: [P2P] Received from 11.23.159.5|1 '90269499945476123'
+[00:00:18]: [Connect] Ping response from 11.23.159.5|1
+[00:00:18]: [Connect] Joining server from ping response...
+[00:00:18]: Friends are currently playing in 2 games(s)!
+[00:00:18]: You belong to 0 clan(s)!
+[00:00:24]: [Connect] Got join server response from lua
+[00:00:25]: [200] Account Communication Success (13)
+[00:00:25]: [Connect] PendingConnectionDoConnect to 11.23.159.5|1
+[00:00:25]: [Connect] DirectConnect to 11.23.159.5|1
+[00:00:25]: Connection accepted to 11.23.159.5|1 <9093932911145052268>
+[00:00:25]: Network external address discovered: 20.231.63.162|1
+[00:00:25]: SendClientHandShakePacket to <9093932911145052268>
+[00:00:26]: DeserializeHandShakeServerListing
+[00:00:26]: Network tick rate: U=10(3), D=15
+[00:00:26]: Platform: 1
+[00:00:26]: Version: 676042
+[00:00:26]: [Steam] Game Connection initiated
+[00:00:26]: SendClientInventoryHandShakePacket to <9093932911145052268>
+[00:00:27]: Begin Session: 2DDD1BBFDB64734E
+[00:00:27]: Done Downloading Client Object Data
+[00:00:27]: DownloadMods and temp disable	
+[00:00:27]: We now have the required mods, enable them for server	
+[00:00:27]: Temp Enabling workshop-378160973	
+[00:00:27]: ModIndex:SetTempModConfigData	
+[00:00:27]: Setting temp mod config for mod 	workshop-378160973	
+[00:00:27]: Mods are setup for server, save the mod index and proceed.	
+[00:00:27]: Downloading [0] From: server_temp
+[00:00:27]: 0 (40%) 1/1 server_temp/server_save 114000b / 282899b
+[00:00:27]: 0 (80%) 1/1 server_temp/server_save 228000b / 282899b
+[00:00:27]: 0 (100%) 1/1 server_temp/server_save 282899b / 282899b
+[00:00:27]: Download complete[0] Files: 1 Size: 282899
+[00:00:28]: Collecting garbage...
+[00:00:28]: lua_gc took 0.13 seconds
+[00:00:28]: ~ShardLuaProxy()
+[00:00:28]: ~cEventLeaderboardProxy()
+[00:00:28]: ~ItemServerLuaProxy()
+[00:00:28]: ~InventoryLuaProxy()
+[00:00:28]: ~NetworkLuaProxy()
+[00:00:28]: ~SimLuaProxy()
+[00:00:28]: Cancelling LuaQueryCallback handle [6]
+[00:00:28]: [Workshop] CancelDownloads for all pending downloads
+[00:00:28]: lua_close took 0.11 seconds
+[00:00:28]: ReleaseAll
+[00:00:28]: ReleaseAll Finished
+[00:00:28]: cGame::StartPlaying
+[00:00:28]: AppVersion::GetArchitecture() x64
+[00:00:28]: LOADING LUA
+[00:00:28]: DoLuaFile scripts/main.lua
+[00:00:28]: DoLuaFile loading buffer scripts/main.lua
+[00:00:28]:   taskgrouplist:	default	Together	
+[00:00:28]:   taskgrouplist:	classic	Classic	
+[00:00:28]:   taskgrouplist:	cave_default	Underground	
+[00:00:28]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:28]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:28]: Running main.lua
+	
+[00:00:28]: loaded modindex	
+[00:00:28]: ModIndex: Beginning normal load sequence.
+	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-822508420	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1579421388	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-944320099	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-376333686	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2325441848	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1098843500	
+[00:00:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:28]: Could not load mod_config_data/modconfiguration_workshop-822508420	
+[00:00:28]: Loading mod: workshop-822508420 (Snow Tile Disabler) Version:0.1.2	
+[00:00:28]: Could not load mod_config_data/modconfiguration_workshop-1579421388	
+[00:00:28]: Loading mod: workshop-1579421388 (Observer Camera) Version:1.3.4	
+[00:00:28]: Could not load mod_config_data/modconfiguration_workshop-351325790	
+[00:00:28]: Loading mod: workshop-351325790 (Geometric Placement) Version:3.2.0	
+[00:00:28]: Could not load mod_config_data/modconfiguration_workshop-944320099	
+[00:00:28]: Loading mod: workshop-944320099 (Critter Pet Mute) Version:1.1	
+[00:00:28]: Could not load mod_config_data/modconfiguration_workshop-376333686	
+[00:00:28]: Loading mod: workshop-376333686 (Combined Status) Version:1.9.2	
+[00:00:28]: Could not load mod_config_data/modconfiguration_workshop-2325441848	
+[00:00:28]: Loading mod: workshop-2325441848 (ActionQueue RB2) Version:1.134	
+[00:00:28]: Could not load mod_config_data/modconfiguration_workshop-1098843500	
+[00:00:28]: Loading mod: workshop-1098843500 (Latin Spanish Client) Version:17042025	
+[00:00:28]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:28]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.5	
+[00:00:28]: Mod: workshop-2325441848 (ActionQueue RB2)	Loading modworldgenmain.lua	
+[00:00:28]: Mod: workshop-2325441848 (ActionQueue RB2)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:28]: Mod: workshop-2325441848 (ActionQueue RB2)	Loading modmain.lua	
+[00:00:28]: Mod: workshop-376333686 (Combined Status)	Loading modworldgenmain.lua	
+[00:00:28]: Mod: workshop-376333686 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:28]: Mod: workshop-376333686 (Combined Status)	Loading modmain.lua	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-822508420	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1579421388	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-944320099	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-376333686	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2325441848	
+[00:00:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1098843500	
+[00:00:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:28]: Mod: workshop-944320099 (Critter Pet Mute)	Loading modworldgenmain.lua	
+[00:00:28]: Mod: workshop-944320099 (Critter Pet Mute)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:28]: Mod: workshop-944320099 (Critter Pet Mute)	Loading modmain.lua	
+[00:00:28]: dontstarve/creatures/together/perdling/walk	
+[00:00:28]: dontstarve/creatures/together/perdling/nuzzle	
+[00:00:28]: dontstarve/creatures/together/perdling/wingflap	
+[00:00:28]: dontstarve/creatures/together/perdling/distress	
+[00:00:28]: dontstarve/creatures/together/perdling/eat_pre	
+[00:00:28]: dontstarve/creatures/together/perdling/distress_long	
+[00:00:28]: dontstarve/creatures/together/perdling/sleep_pre	
+[00:00:28]: dontstarve/creatures/together/perdling/sleep_in	
+[00:00:28]: dontstarve/creatures/together/perdling/sleep_out	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/buttstomp	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/buttstomp_voice	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/blink	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/sleep_pre	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/emote_flame	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/swipe	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/emote_combat	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/emote_combat_2	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/eat_pre	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/eat	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/angry	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/emote	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/fly_LP	
+[00:00:28]: dontstarve_DLC001/creatures/together/dragonling/sleep	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/emote1	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/emote2	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/emote_nuzzle	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/idle	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/emote_cute	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/emote_combat	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/interact_active	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/interact_passive	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/vo_cute	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/eat_pre	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/eat_LP	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/distress	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/walk	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/emote_pet	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/sleep_pre	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/sleep_in	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/sleep_out	
+[00:00:28]: turnoftides/creatures/together/lunarmothling/sleep_pst	
+[00:00:28]: dontstarve/creatures/together/sheepington/stallion	
+[00:00:28]: dontstarve/creatures/together/sheepington/walk	
+[00:00:28]: dontstarve/creatures/together/sheepington/grunt	
+[00:00:28]: dontstarve/creatures/together/sheepington/yell	
+[00:00:28]: dontstarve/creatures/together/sheepington/curious	
+[00:00:28]: dontstarve/creatures/together/sheepington/chew	
+[00:00:28]: dontstarve/creatures/together/sheepington/angry	
+[00:00:28]: dontstarve/creatures/together/sheepington/bodyfall	
+[00:00:28]: dontstarve/creatures/together/sheepington/sleep	
+[00:00:28]: dontstarve_DLC001/creatures/together/kittington/yawn	
+[00:00:28]: dontstarve_DLC001/creatures/together/kittington/emote_lick	
+[00:00:28]: dontstarve_DLC001/creatures/together/kittington/emote	
+[00:00:28]: dontstarve_DLC001/creatures/together/kittington/emote_nuzzle	
+[00:00:28]: dontstarve_DLC001/creatures/together/kittington/hiss	
+[00:00:28]: dontstarve_DLC001/creatures/together/kittington/pounce	
+[00:00:28]: dontstarve_DLC001/creatures/together/kittington/eat_pre	
+[00:00:28]: dontstarve_DLC001/creatures/together/kittington/eat	
+[00:00:28]: dontstarve_DLC001/creatures/together/kittington/disstress	
+[00:00:28]: dontstarve_DLC001/creatures/together/kittington/sleep	
+[00:00:28]: dontstarve/creatures/together/pupington/emote_scratch	
+[00:00:28]: dontstarve/creatures/together/pupington/pant	
+[00:00:28]: dontstarve/creatures/together/pupington/bark	
+[00:00:28]: dontstarve/creatures/together/pupington/tail	
+[00:00:28]: dontstarve/creatures/together/pupington/growl	
+[00:00:28]: dontstarve/creatures/together/pupington/sleep	
+[00:00:28]: dontstarve_DLC001/creatures/together/glomling/flap_LP	
+[00:00:28]: dontstarve_DLC001/creatures/together/glomling/bounce_voice	
+[00:00:28]: dontstarve_DLC001/creatures/together/glomling/bounce_ground	
+[00:00:28]: dontstarve_DLC001/creatures/together/glomling/emote_2	
+[00:00:28]: dontstarve_DLC001/creatures/together/glomling/emote_combat	
+[00:00:28]: dontstarve_DLC001/creatures/together/glomling/clap	
+[00:00:28]: dontstarve_DLC001/creatures/together/glomling/eat_loop	
+[00:00:28]: dontstarve_DLC001/creatures/together/glomling/vomit_voice	
+[00:00:28]: Mod: workshop-1098843500 (Latin Spanish Client)	Loading modworldgenmain.lua	
+[00:00:28]: Mod: workshop-1098843500 (Latin Spanish Client)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:28]: Mod: workshop-1098843500 (Latin Spanish Client)	Loading modmain.lua	
+[00:00:28]: Translator:LoadPOFile - loading file: ../mods/workshop-1098843500/spanish.po	
+[00:00:31]: Mod: workshop-1579421388 (Observer Camera)	Loading modworldgenmain.lua	
+[00:00:31]: Mod: workshop-1579421388 (Observer Camera)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:31]: Mod: workshop-1579421388 (Observer Camera)	Loading modmain.lua	
+[00:00:31]: Mod: workshop-822508420 (Snow Tile Disabler)	Loading modworldgenmain.lua	
+[00:00:31]: Mod: workshop-822508420 (Snow Tile Disabler)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:31]: Mod: workshop-822508420 (Snow Tile Disabler)	Loading modmain.lua	
+[00:00:31]: Mod: workshop-351325790 (Geometric Placement)	Loading modworldgenmain.lua	
+[00:00:31]: Mod: workshop-351325790 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:31]: Mod: workshop-351325790 (Geometric Placement)	Loading modmain.lua	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-822508420	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1579421388	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-944320099	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-376333686	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2325441848	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1098843500	
+[00:00:31]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-822508420	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1579421388	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-944320099	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-376333686	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2325441848	
+[00:00:31]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1098843500	
+[00:00:31]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:31]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:32]: LOADING LUA SUCCESS
+[00:00:32]: Registering Server mod namespace "workshop-378160973"
+[00:00:32]: PlayerDeaths loaded morgue	333	
+[00:00:32]: PlayerHistory loaded player_history (v2) len:219	
+[00:00:32]: ServerPreferences loaded server_preferences	2	
+[00:00:32]: ConsoleScreenSettings loaded consolescreen	18	
+[00:00:32]: bloom_enabled	true	
+[00:00:32]: EnableShadeRenderer: 	true	
+[00:00:32]: OnFilesLoaded()	
+[00:00:32]: OnUpdatePurchaseStateComplete	
+[00:00:32]: Loading world: client_temp/server_save	
+[00:00:32]: Save file is at version 5.156	
+[00:00:32]: Klump load on boot started.	
+[00:00:32]: Klump files loaded: 	0	
+[00:00:32]: 	Unload FE	
+[00:00:32]: 	Unload FE done	
+[00:00:33]: Mod: workshop-2325441848 (ActionQueue RB2)	Registering prefabs	
+[00:00:33]: Mod: workshop-2325441848 (ActionQueue RB2)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-376333686 (Combined Status)	Registering prefabs	
+[00:00:33]: Mod: workshop-376333686 (Combined Status)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-944320099 (Critter Pet Mute)	Registering prefabs	
+[00:00:33]: Mod: workshop-944320099 (Critter Pet Mute)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-1098843500 (Latin Spanish Client)	Registering prefabs	
+[00:00:33]: Mod: workshop-1098843500 (Latin Spanish Client)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-1579421388 (Observer Camera)	Registering prefabs	
+[00:00:33]: Mod: workshop-1579421388 (Observer Camera)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-822508420 (Snow Tile Disabler)	Registering prefabs	
+[00:00:33]: Mod: workshop-822508420 (Snow Tile Disabler)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-351325790 (Geometric Placement)	Registering prefabs	
+[00:00:33]: Mod: workshop-351325790 (Geometric Placement)	  Registering prefab file: prefabs/actiongridplacer	
+[00:00:33]: Mod: workshop-351325790 (Geometric Placement)	    till_actiongridplacer	
+[00:00:33]: Mod: workshop-351325790 (Geometric Placement)	  Registering prefab file: prefabs/buildgridplacer	
+[00:00:33]: Mod: workshop-351325790 (Geometric Placement)	    buildgridplacer	
+[00:00:33]: Mod: workshop-351325790 (Geometric Placement)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:33]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:34]: 	LOAD BE	
+[00:00:45]: 	LOAD BE: done	
+[00:00:45]: OVERRIDE: setting	healthpenalty	to	always	
+[00:00:45]: OVERRIDE: setting	wanderingtrader_enabled	to	always	
+[00:00:45]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:00:45]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:00:45]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:00:45]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:45]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:45]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:45]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:45]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:45]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:45]: Loading 19 new character(s)	
+[00:00:46]: Total 19 character(s) loaded	
+[00:00:46]: World generated on build 676042 with save version: 5.156, using seed: 	
+[00:00:46]: OVERRIDE: setting	ghostenabled	to	always	
+[00:00:46]: OVERRIDE: setting	basicresource_regrowth	to	none	
+[00:00:46]: OVERRIDE: setting	portalresurection	to	none	
+[00:00:46]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:00:46]: OVERRIDE: setting	ghostsanitydrain	to	always	
+[00:00:46]: Reconstructing topology	
+[00:00:46]: 	...Sorting points	
+[00:00:46]: 	...Sorting edges	
+[00:00:46]: 	...Connecting nodes	
+[00:00:46]: 	...Validating connections	
+[00:00:46]: 	...Housekeeping	
+[00:00:46]: 	...Done!	
+[00:00:46]: Check for write access: TRUE
+[00:00:46]: Check for read access: TRUE
+[00:00:46]: Available disk space for save files: 858893 MB
+[00:00:46]: ModIndex: Load sequence finished successfully.	
+[00:00:46]: Reset() returning
+[00:00:57]: Attempting to send resume request
+[00:00:58]: ReceiveResumeNotification
+[00:00:58]: Movement prediction enabled	
+[00:00:58]: [ActionQueue] Adding ActionQueuer component	
+[00:00:58]: Deserializing tile data (425 x 425)
+[00:00:58]: Serializing user: session/2DDD1BBFDB64734E/A7ITDNN8U1S6/0000000001
+[00:05:18]: Serializing user: session/2DDD1BBFDB64734E/A7ITDNN8U1S6/0000000001
+[00:13:19]: Serializing user: session/2DDD1BBFDB64734E/A7ITDNN8U1S6/0000000001
+[00:14:21]: Locomotor: Waiting for server...
+[00:14:21]: Locomotor: Buffering...
+[00:14:21]: Locomotor: Reset
+[00:21:21]: Serializing user: session/2DDD1BBFDB64734E/A7ITDNN8U1S6/0000000001
+[00:26:44]: Server Paused	
+[00:30:01]: [200] Account Communication Success (6)
+[00:30:01]: Received (KU_NMtkZmU6) from TokenPurpose
+[00:30:01]: Server Unpaused	
+[00:32:40]: Serializing user: session/2DDD1BBFDB64734E/A7ITDNN8U1S6/0000000001
+[00:37:12]: WARNING! Could not find region 'avatar_sculpture_bishopbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:37:12]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:37:43]: WARNING! Could not find region 'avatar_sculpture_bishopbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:37:43]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:40:37]: WARNING! Could not find region 'avatar_sculpture_rookbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:40:37]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:40:37]: WARNING! Could not find region 'avatar_sculpture_bishopbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:40:37]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:40:40]: WARNING! Could not find region 'avatar_sculpture_knightbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:40:40]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:40:41]: Serializing user: session/2DDD1BBFDB64734E/A7ITDNN8U1S6/0000000001
+[00:41:32]: WARNING! Could not find region 'avatar_sculpture_bishopbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:41:32]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:43:00]: Server Paused	
+[00:43:10]: Server Unpaused	
+[00:43:24]: SAVING Morgue	3	
+[00:44:03]: Could not find anim [idle_loop] in bank [ghost]
+[00:48:52]: Locomotor: Waiting for server...
+[00:48:52]: Locomotor: Buffering...
+[00:48:52]: Locomotor: Resynced
+[00:48:53]: Serializing user: session/2DDD1BBFDB64734E/A7ITDNN8U1S6/0000000001
+[00:49:03]: Locomotor: Waiting for server...
+[00:49:03]: Locomotor: Buffering...
+[00:49:03]: Locomotor: Resumed
+[00:54:00]: WARNING! Could not find region 'avatar_sculpture_rookbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:54:00]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:54:00]: WARNING! Could not find region 'avatar_sculpture_bishopbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:54:00]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:54:01]: WARNING! Could not find region 'avatar_sculpture_knightbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:54:01]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:56:13]: WARNING! Could not find region 'avatar_sculpture_rookbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:56:13]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:56:20]: WARNING! Could not find region 'avatar_sculpture_bishopbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:56:20]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:56:31]: SAVING Morgue	4	
+[00:56:55]: Serializing user: session/2DDD1BBFDB64734E/A7ITDNN8U1S6/0000000001
+[00:57:54]: WARNING! Could not find region 'avatar_sculpture_bishopbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:57:54]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:57:55]: WARNING! Could not find region 'avatar_sculpture_rookbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:57:55]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:58:13]: WARNING! Could not find region 'avatar_sculpture_knightbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:58:13]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:58:14]: WARNING! Could not find region 'avatar_sculpture_bishopbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:58:14]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:58:14]: WARNING! Could not find region 'avatar_sculpture_rookbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:58:14]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[01:00:01]: [200] Account Communication Success (6)
+[01:00:01]: Received (KU_NMtkZmU6) from TokenPurpose
+[01:00:59]: Could not find anim [idle_loop] in bank [ghost]
+[01:01:15]: WARNING! Could not find region 'avatar_sculpture_rookbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[01:01:15]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[01:01:15]: WARNING! Could not find region 'avatar_sculpture_bishopbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[01:01:15]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[01:01:21]: WARNING! Could not find region 'avatar_sculpture_knightbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[01:01:21]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[01:01:33]: WARNING! Could not find region 'avatar_sculpture_bishopbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[01:01:33]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[01:01:34]: WARNING! Could not find region 'avatar_sculpture_rookbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[01:01:34]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[01:01:49]: WARNING! Could not find region 'avatar_sculpture_knightbody.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[01:01:49]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[01:04:21]: Server Paused	
+[01:04:30]: Server Unpaused	
+[01:04:38]: Connection lost to 11.23.159.5|1 <9093932911145052268>
+[01:04:38]: [Connect] PendingConnection::Reset(true)
+[01:04:38]: PushNetworkDisconnectEvent With Reason: "ID_CONNECTION_LOST", reset: true
+[01:04:38]: Serializing user: session/2DDD1BBFDB64734E/A7ITDNN8U1S6/0000000001
+[01:04:38]: [Steam] Game Connection terminated (186097413|1)
+[01:04:38]: [Shard] Stopping shard mode
+[01:04:38]: [Workshop] CancelDownloads for all pending downloads
+[01:04:40]: DoRestart:	false	
+[01:04:41]: [Workshop] CancelDownloads for all pending downloads
+[01:04:41]: Collecting garbage...
+[01:04:41]: lua_gc took 0.11 seconds
+[01:04:41]: ~ShardLuaProxy()
+[01:04:41]: ~cEventLeaderboardProxy()
+[01:04:41]: ~ItemServerLuaProxy()
+[01:04:41]: ~InventoryLuaProxy()
+[01:04:41]: ~NetworkLuaProxy()
+[01:04:41]: ~SimLuaProxy()
+[01:04:41]: [Workshop] CancelDownloads for all pending downloads
+[01:04:41]: lua_close took 0.13 seconds
+[01:04:41]: ReleaseAll
+[01:04:41]: ReleaseAll Finished
+[01:04:41]: cGame::StartPlaying
+[01:04:41]: AppVersion::GetArchitecture() x64
+[01:04:41]: LOADING LUA
+[01:04:41]: DoLuaFile scripts/main.lua
+[01:04:41]: DoLuaFile loading buffer scripts/main.lua
+[01:04:42]:   taskgrouplist:	default	Together	
+[01:04:42]:   taskgrouplist:	classic	Classic	
+[01:04:42]:   taskgrouplist:	cave_default	Underground	
+[01:04:42]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[01:04:42]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[01:04:42]: Running main.lua
+	
+[01:04:42]: unloading prefabs for mod workshop-2325441848 (ActionQueue RB2)	
+[01:04:42]: unloading prefabs for mod workshop-376333686 (Combined Status)	
+[01:04:42]: unloading prefabs for mod workshop-944320099 (Critter Pet Mute)	
+[01:04:42]: unloading prefabs for mod workshop-1098843500 (Latin Spanish Client)	
+[01:04:42]: unloading prefabs for mod workshop-1579421388 (Observer Camera)	
+[01:04:42]: unloading prefabs for mod workshop-822508420 (Snow Tile Disabler)	
+[01:04:42]: unloading prefabs for mod workshop-351325790 (Geometric Placement)	
+[01:04:42]: unloading prefabs for mod workshop-378160973 (Global Positions)	
+[01:04:42]: loaded modindex	
+[01:04:42]: ModIndex: Beginning normal load sequence.
+	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-822508420	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1579421388	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-944320099	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-376333686	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2325441848	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1098843500	
+[01:04:42]: Could not load mod_config_data/modconfiguration_workshop-822508420	
+[01:04:42]: Loading mod: workshop-822508420 (Snow Tile Disabler) Version:0.1.2	
+[01:04:42]: Could not load mod_config_data/modconfiguration_workshop-1579421388	
+[01:04:42]: Loading mod: workshop-1579421388 (Observer Camera) Version:1.3.4	
+[01:04:42]: Could not load mod_config_data/modconfiguration_workshop-351325790	
+[01:04:42]: Loading mod: workshop-351325790 (Geometric Placement) Version:3.2.0	
+[01:04:42]: Could not load mod_config_data/modconfiguration_workshop-944320099	
+[01:04:42]: Loading mod: workshop-944320099 (Critter Pet Mute) Version:1.1	
+[01:04:42]: Could not load mod_config_data/modconfiguration_workshop-376333686	
+[01:04:42]: Loading mod: workshop-376333686 (Combined Status) Version:1.9.2	
+[01:04:42]: Could not load mod_config_data/modconfiguration_workshop-2325441848	
+[01:04:42]: Loading mod: workshop-2325441848 (ActionQueue RB2) Version:1.134	
+[01:04:42]: Could not load mod_config_data/modconfiguration_workshop-1098843500	
+[01:04:42]: Loading mod: workshop-1098843500 (Latin Spanish Client) Version:17042025	
+[01:04:42]: Mod: workshop-2325441848 (ActionQueue RB2)	Loading modworldgenmain.lua	
+[01:04:42]: Mod: workshop-2325441848 (ActionQueue RB2)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:04:42]: Mod: workshop-2325441848 (ActionQueue RB2)	Loading modmain.lua	
+[01:04:42]: Mod: workshop-376333686 (Combined Status)	Loading modworldgenmain.lua	
+[01:04:42]: Mod: workshop-376333686 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:04:42]: Mod: workshop-376333686 (Combined Status)	Loading modmain.lua	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-822508420	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1579421388	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-944320099	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-376333686	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2325441848	
+[01:04:42]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1098843500	
+[01:04:42]: Mod: workshop-944320099 (Critter Pet Mute)	Loading modworldgenmain.lua	
+[01:04:42]: Mod: workshop-944320099 (Critter Pet Mute)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:04:42]: Mod: workshop-944320099 (Critter Pet Mute)	Loading modmain.lua	
+[01:04:42]: dontstarve/creatures/together/perdling/walk	
+[01:04:42]: dontstarve/creatures/together/perdling/nuzzle	
+[01:04:42]: dontstarve/creatures/together/perdling/wingflap	
+[01:04:42]: dontstarve/creatures/together/perdling/distress	
+[01:04:42]: dontstarve/creatures/together/perdling/eat_pre	
+[01:04:42]: dontstarve/creatures/together/perdling/distress_long	
+[01:04:42]: dontstarve/creatures/together/perdling/sleep_pre	
+[01:04:42]: dontstarve/creatures/together/perdling/sleep_in	
+[01:04:42]: dontstarve/creatures/together/perdling/sleep_out	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/buttstomp	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/buttstomp_voice	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/blink	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/sleep_pre	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/emote_flame	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/swipe	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/emote_combat	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/emote_combat_2	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/eat_pre	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/eat	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/angry	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/emote	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/fly_LP	
+[01:04:42]: dontstarve_DLC001/creatures/together/dragonling/sleep	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/emote1	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/emote2	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/emote_nuzzle	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/idle	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/emote_cute	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/emote_combat	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/interact_active	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/interact_passive	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/vo_cute	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/eat_pre	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/eat_LP	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/distress	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/walk	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/emote_pet	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/sleep_pre	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/sleep_in	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/sleep_out	
+[01:04:42]: turnoftides/creatures/together/lunarmothling/sleep_pst	
+[01:04:42]: dontstarve/creatures/together/sheepington/stallion	
+[01:04:42]: dontstarve/creatures/together/sheepington/walk	
+[01:04:42]: dontstarve/creatures/together/sheepington/grunt	
+[01:04:42]: dontstarve/creatures/together/sheepington/yell	
+[01:04:42]: dontstarve/creatures/together/sheepington/curious	
+[01:04:42]: dontstarve/creatures/together/sheepington/chew	
+[01:04:42]: dontstarve/creatures/together/sheepington/angry	
+[01:04:42]: dontstarve/creatures/together/sheepington/bodyfall	
+[01:04:42]: dontstarve/creatures/together/sheepington/sleep	
+[01:04:42]: dontstarve_DLC001/creatures/together/kittington/yawn	
+[01:04:42]: dontstarve_DLC001/creatures/together/kittington/emote_lick	
+[01:04:42]: dontstarve_DLC001/creatures/together/kittington/emote	
+[01:04:42]: dontstarve_DLC001/creatures/together/kittington/emote_nuzzle	
+[01:04:42]: dontstarve_DLC001/creatures/together/kittington/hiss	
+[01:04:42]: dontstarve_DLC001/creatures/together/kittington/pounce	
+[01:04:42]: dontstarve_DLC001/creatures/together/kittington/eat_pre	
+[01:04:42]: dontstarve_DLC001/creatures/together/kittington/eat	
+[01:04:42]: dontstarve_DLC001/creatures/together/kittington/disstress	
+[01:04:42]: dontstarve_DLC001/creatures/together/kittington/sleep	
+[01:04:42]: dontstarve/creatures/together/pupington/emote_scratch	
+[01:04:42]: dontstarve/creatures/together/pupington/pant	
+[01:04:42]: dontstarve/creatures/together/pupington/bark	
+[01:04:42]: dontstarve/creatures/together/pupington/tail	
+[01:04:42]: dontstarve/creatures/together/pupington/growl	
+[01:04:42]: dontstarve/creatures/together/pupington/sleep	
+[01:04:42]: dontstarve_DLC001/creatures/together/glomling/flap_LP	
+[01:04:42]: dontstarve_DLC001/creatures/together/glomling/bounce_voice	
+[01:04:42]: dontstarve_DLC001/creatures/together/glomling/bounce_ground	
+[01:04:42]: dontstarve_DLC001/creatures/together/glomling/emote_2	
+[01:04:42]: dontstarve_DLC001/creatures/together/glomling/emote_combat	
+[01:04:42]: dontstarve_DLC001/creatures/together/glomling/clap	
+[01:04:42]: dontstarve_DLC001/creatures/together/glomling/eat_loop	
+[01:04:42]: dontstarve_DLC001/creatures/together/glomling/vomit_voice	
+[01:04:42]: Mod: workshop-1098843500 (Latin Spanish Client)	Loading modworldgenmain.lua	
+[01:04:42]: Mod: workshop-1098843500 (Latin Spanish Client)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:04:42]: Mod: workshop-1098843500 (Latin Spanish Client)	Loading modmain.lua	
+[01:04:42]: Translator:LoadPOFile - loading file: ../mods/workshop-1098843500/spanish.po	
+[01:04:45]: Mod: workshop-1579421388 (Observer Camera)	Loading modworldgenmain.lua	
+[01:04:45]: Mod: workshop-1579421388 (Observer Camera)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:04:45]: Mod: workshop-1579421388 (Observer Camera)	Loading modmain.lua	
+[01:04:45]: Mod: workshop-822508420 (Snow Tile Disabler)	Loading modworldgenmain.lua	
+[01:04:45]: Mod: workshop-822508420 (Snow Tile Disabler)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:04:45]: Mod: workshop-822508420 (Snow Tile Disabler)	Loading modmain.lua	
+[01:04:45]: Mod: workshop-351325790 (Geometric Placement)	Loading modworldgenmain.lua	
+[01:04:45]: Mod: workshop-351325790 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:04:45]: Mod: workshop-351325790 (Geometric Placement)	Loading modmain.lua	
+[01:04:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-822508420	
+[01:04:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1579421388	
+[01:04:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-351325790	
+[01:04:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-944320099	
+[01:04:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-376333686	
+[01:04:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2325441848	
+[01:04:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1098843500	
+[01:04:50]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[01:04:50]: LOADING LUA SUCCESS
+[01:04:50]: PlayerDeaths loaded morgue	666	
+[01:04:50]: PlayerHistory loaded player_history (v2) len:212	
+[01:04:50]: ServerPreferences loaded server_preferences	2	
+[01:04:50]: ConsoleScreenSettings loaded consolescreen	18	
+[01:04:50]: bloom_enabled	true	
+[01:04:50]: EnableShadeRenderer: 	true	
+[01:04:50]: loaded shardsaveindex	
+[01:04:50]: OnFilesLoaded()	
+[01:04:50]: OnUpdatePurchaseStateComplete	
+[01:04:50]: Klump load on boot started.	
+[01:04:50]: Klump files loaded: 	0	
+[01:04:50]: 	Unload characters	
+[01:04:50]: 	Unload BE	
+[01:04:50]: 	Unload BE done	
+[01:04:51]: Could not unload undefined prefab (ocean_splash_med1)
+[01:04:51]: Could not unload undefined prefab (ocean_splash_med2)
+[01:04:51]: Could not unload undefined prefab (ocean_splash_med1)
+[01:04:51]: Could not unload undefined prefab (ocean_splash_med2)
+[01:04:51]: Could not unload undefined prefab (ocean_splash_med1)
+[01:04:51]: Could not unload undefined prefab (ocean_splash_med2)
+[01:04:51]: Could not unload undefined prefab (ocean_splash_med1)
+[01:04:51]: Could not unload undefined prefab (ocean_splash_med2)
+[01:04:51]: Could not unload undefined prefab (shadowmeteor)
+[01:04:51]: Could not unload undefined prefab (moon_altar_link_contained)
+[01:04:51]: Could not unload undefined prefab (gestalt_alterguardian_projectile)
+[01:04:51]: Could not unload undefined prefab (mining_moonglass_fx)
+[01:04:51]: Could not unload undefined prefab (moon_device_break_stage1)
+[01:04:51]: Could not unload undefined prefab (moon_device_break_stage2)
+[01:04:51]: Could not unload undefined prefab (moon_device_break_stage3)
+[01:04:51]: Could not unload undefined prefab (moon_altar_break)
+[01:04:51]: Could not unload undefined prefab (moon_altar_crown_break)
+[01:04:51]: Could not unload undefined prefab (burntground)
+[01:04:51]: Could not unload undefined prefab (moon_device_meteor_spawner)
+[01:04:51]: Could not unload undefined prefab (construction_container)
+[01:04:51]: Could not unload undefined prefab (moon_altar_link_contained)
+[01:04:51]: Could not unload undefined prefab (moon_device_break_stage1)
+[01:04:51]: Could not unload undefined prefab (moon_device_break_stage2)
+[01:04:51]: Could not unload undefined prefab (moon_device_break_stage3)
+[01:04:51]: Could not unload undefined prefab (moon_altar_break)
+[01:04:51]: Could not unload undefined prefab (moon_altar_crown_break)
+[01:04:51]: Could not unload undefined prefab (burntground)
+[01:04:51]: Could not unload undefined prefab (moon_device_meteor_spawner)
+[01:04:51]: Could not unload undefined prefab (construction_container)
+[01:04:51]: Could not unload undefined prefab (ash)
+[01:04:51]: Could not unload undefined prefab (campfirefire)
+[01:04:51]: Could not unload undefined prefab (ash)
+[01:04:51]: Could not unload undefined prefab (campfirefire)
+[01:04:51]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[01:04:51]: Could not unload undefined prefab (ocean_splash_med1)
+[01:04:51]: Could not unload undefined prefab (ocean_splash_med2)
+[01:04:51]: Could not unload undefined prefab (splash_ocean)
+[01:04:51]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[01:04:51]: Could not unload undefined prefab (ocean_splash_med1)
+[01:04:51]: Could not unload undefined prefab (ocean_splash_med2)
+[01:04:51]: Could not unload undefined prefab (splash_ocean)
+[01:05:14]: Mod: workshop-2325441848 (ActionQueue RB2)	Registering prefabs	
+[01:05:14]: Mod: workshop-2325441848 (ActionQueue RB2)	  Registering default mod prefab	
+[01:05:14]: Mod: workshop-376333686 (Combined Status)	Registering prefabs	
+[01:05:14]: Mod: workshop-376333686 (Combined Status)	  Registering default mod prefab	
+[01:05:14]: Mod: workshop-944320099 (Critter Pet Mute)	Registering prefabs	
+[01:05:14]: Mod: workshop-944320099 (Critter Pet Mute)	  Registering default mod prefab	
+[01:05:14]: Mod: workshop-1098843500 (Latin Spanish Client)	Registering prefabs	
+[01:05:14]: Mod: workshop-1098843500 (Latin Spanish Client)	  Registering default mod prefab	
+[01:05:14]: Mod: workshop-1579421388 (Observer Camera)	Registering prefabs	
+[01:05:14]: Mod: workshop-1579421388 (Observer Camera)	  Registering default mod prefab	
+[01:05:14]: Mod: workshop-822508420 (Snow Tile Disabler)	Registering prefabs	
+[01:05:14]: Mod: workshop-822508420 (Snow Tile Disabler)	  Registering default mod prefab	
+[01:05:14]: Mod: workshop-351325790 (Geometric Placement)	Registering prefabs	
+[01:05:14]: Mod: workshop-351325790 (Geometric Placement)	  Registering prefab file: prefabs/actiongridplacer	
+[01:05:14]: Mod: workshop-351325790 (Geometric Placement)	    till_actiongridplacer	
+[01:05:14]: Mod: workshop-351325790 (Geometric Placement)	  Registering prefab file: prefabs/buildgridplacer	
+[01:05:14]: Mod: workshop-351325790 (Geometric Placement)	    buildgridplacer	
+[01:05:14]: Mod: workshop-351325790 (Geometric Placement)	  Registering default mod prefab	
+[01:05:14]: 	Load FE	
+[01:05:15]: 	Load FE: done	
+[01:05:15]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/blocklist.txt (Failure)
+[01:05:15]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1694482968/client_save/adminlist.txt (Failure)
+[01:05:15]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1694482968/client_save/whitelist.txt (Failure)
+[01:05:15]: [MOTD] Downloading info from	https://motd.klei.com/motd.json/?game=dst&platform=STEAM&locale=CO&lang=spanish&version=676042	
+[01:05:15]: Check for write access: TRUE
+[01:05:15]: Check for read access: TRUE
+[01:05:15]: Available disk space for save files: 858888 MB
+[01:05:15]: ModIndex: Load sequence finished successfully.	
+[01:05:15]: Reset() returning
+[01:05:15]: [P2P] Connection failed for '90269499945476123' because of error code 4(The connection timed out because the target user didn't respond.).
+[01:05:15]: [Workshop] CancelDownloads for all pending downloads
+[01:05:15]: Collecting garbage...
+[01:05:15]: lua_gc took 0.13 seconds
+[01:05:15]: ~ShardLuaProxy()
+[01:05:15]: ~cEventLeaderboardProxy()
+[01:05:15]: ~ItemServerLuaProxy()
+[01:05:15]: ~InventoryLuaProxy()
+[01:05:15]: ~NetworkLuaProxy()
+[01:05:15]: ~SimLuaProxy()
+[01:05:15]: Cancelling LuaQueryCallback handle [9]
+[01:05:15]: [Workshop] CancelDownloads for all pending downloads
+[01:05:15]: lua_close took 0.11 seconds
+[01:05:16]: [Workshop] CancelDownloads for all pending downloads
+[01:05:16]: [Steam] Auth ticket cancelled
+[01:05:16]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[01:05:16]: anim/hound_ice_ocean.zip - 2
+[01:05:16]: anim/worm_boss_segment.zip - 5
+[01:05:16]: anim/structure_collapse_fx.zip - 3
+[01:05:16]: anim/hound_hedge_ocean.zip - 2
+[01:05:16]: anim/oceanfishing_bobber_sporty_build.zip - 4
+[01:05:16]: anim/costume_king_body.zip - 2
+[01:05:16]: anim/splash_ocean.zip - 2
+[01:05:16]: anim/gems.zip - 7
+[01:05:16]: anim/charlie_lectern.zip - 2
+[01:05:16]: anim/worm_boss.zip - 5
+[01:05:16]: anim/playbill.zip - 2
+[01:05:16]: anim/blueprint_sketch.zip - 2
+[01:05:16]: anim/oceanfishingbobber_goose_build.zip - 4
+[01:05:16]: anim/charlie_seat.zip - 2
+[01:05:16]: anim/costume_mirror_body.zip - 2
+[01:05:16]: anim/statue_ruins_small.zip - 5
+[01:05:16]: anim/oceanfishing_bobber_ball_build.zip - 4
+[01:05:16]: anim/costume_fool_body.zip - 2
+[01:05:16]: anim/statue_ruins.zip - 5
+[01:05:16]: anim/statue_ruins_small_gem.zip - 5
+[01:05:16]: anim/oceanfishingbobber_robin_build.zip - 4
+[01:05:16]: anim/splash_water_drop.zip - 7
+[01:05:16]: anim/oceanfishingbobber_robin_winter_build.zip - 4
+[01:05:16]: anim/hound_basic.zip - 2
+[01:05:16]: anim/costume_doll_body.zip - 2
+[01:05:16]: anim/nightmarefuel.zip - 2
+[01:05:16]: anim/yotb_post_ribbons.zip - 2
+[01:05:16]: anim/hound_hedge_action_water.zip - 2
+[01:05:16]: anim/oceanfishing_bobber_ball.zip - 25
+[01:05:16]: anim/oceanfishingbobber_crow_build.zip - 4
+[01:05:16]: anim/yotb_spotlight.zip - 2
+[01:05:16]: anim/hound_mutated.zip - 2
+[01:05:16]: anim/oceanfishingbobber_canary_build.zip - 4
+[01:05:16]: anim/costume_tree_body.zip - 2
+[01:05:16]: anim/yotb_post_rug.zip - 2
+[01:05:16]: anim/die.zip - 2
+[01:05:16]: anim/hedgehound_bush.zip - 2
+[01:05:16]: anim/hat_mask_doll.zip - 2
+[01:05:16]: anim/worm_boss_segment_2_build.zip - 5
+[01:05:16]: anim/hound_hedge_action.zip - 2
+[01:05:16]: anim/charlie_heckler2.zip - 2
+[01:05:16]: anim/winter_ornaments2024.zip - 2
+[01:05:16]: anim/costume_blacksmith_body.zip - 2
+[01:05:16]: anim/statue_ruins_gem.zip - 5
+[01:05:16]: anim/thulecite.zip - 2
+[01:05:16]: anim/statue_ruins_fx.zip - 2
+[01:05:16]: anim/hound_ocean.zip - 2
+[01:05:16]: anim/oceanfishingbobber_malbatross_build.zip - 4
+[01:05:16]: anim/hound_red_ocean.zip - 2
+[01:05:16]: anim/oceanfishing_hook.zip - 2
+[01:05:16]: anim/costume_queen_body.zip - 2
+[01:05:16]: anim/hound_basic_water.zip - 2
+[01:05:16]: anim/sewing_mannequin.zip - 2
+[01:05:16]: anim/marble.zip - 2
+[01:05:16]: anim/charlie_stage.zip - 3
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager.
+[01:05:16]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[01:05:16]: anim/statue_ruins_small_gem.zip:statue_ruins_small_gem--atlas-0.tex - 2
+[01:05:16]: anim/worm_boss_segment_2_build.zip:worm_boss_segment_2_build--atlas-0.tex - 2
+[01:05:16]: anim/thulecite.zip:thulecite--atlas-0.tex - 2
+[01:05:16]: anim/winter_ornaments2024.zip:winter_ornaments2024--atlas-0.tex - 2
+[01:05:16]: anim/hedgehound_bush.zip:hedgehound_bush--atlas-0.tex - 2
+[01:05:16]: anim/charlie_lectern.zip:charlie_lectern--atlas-0.tex - 2
+[01:05:16]: anim/gems.zip:gems--atlas-0.tex - 2
+[01:05:16]: anim/yotb_post_rug.zip:yotb_post_rug--atlas-1.tex - 2
+[01:05:16]: anim/charlie_heckler2.zip:charlie_heckler2--atlas-0.tex - 2
+[01:05:16]: anim/worm_boss_segment.zip:worm_boss_segment--atlas-0.tex - 2
+[01:05:16]: anim/hound_ice_ocean.zip:hound_ice_ocean--atlas-0.tex - 2
+[01:05:16]: anim/costume_queen_body.zip:costume_queen_body--atlas-1.tex - 2
+[01:05:16]: anim/hound_hedge_ocean.zip:hound_hedge_ocean--atlas-0.tex - 2
+[01:05:16]: anim/statue_ruins.zip:statue_ruins--atlas-0.tex - 2
+[01:05:16]: anim/structure_collapse_fx.zip:structure_collapse_fx--atlas-0.tex - 2
+[01:05:16]: anim/hat_mask_doll.zip:hat_mask_doll--atlas-0.tex - 2
+[01:05:16]: anim/costume_fool_body.zip:costume_fool_body--atlas-0.tex - 2
+[01:05:16]: anim/charlie_stage.zip:charlie_stage--atlas-0.tex - 2
+[01:05:16]: anim/worm_boss.zip:worm_boss--atlas-0.tex - 2
+[01:05:16]: anim/costume_mirror_body.zip:costume_mirror_body--atlas-0.tex - 2
+[01:05:16]: anim/yotb_post_ribbons.zip:yotb_post_ribbons--atlas-0.tex - 2
+[01:05:16]: anim/hound_basic_water.zip:hound_basic_water--atlas-0.tex - 2
+[01:05:16]: anim/nightmarefuel.zip:nightmarefuel--atlas-0.tex - 2
+[01:05:16]: anim/statue_ruins_fx.zip:statue_ruins_fx--atlas-0.tex - 2
+[01:05:16]: anim/oceanfishingbobber_robin_winter_build.zip:oceanfishingbobber_robin_winter_build--atlas-0.tex - 2
+[01:05:16]: anim/hound_ocean.zip:hound_ocean--atlas-0.tex - 2
+[01:05:16]: anim/oceanfishingbobber_malbatross_build.zip:oceanfishingbobber_malbatross_build--atlas-0.tex - 2
+[01:05:16]: anim/costume_king_body.zip:costume_king_body--atlas-0.tex - 2
+[01:05:16]: anim/costume_tree_body.zip:costume_tree_body--atlas-0.tex - 2
+[01:05:16]: anim/charlie_stage.zip:charlie_stage--atlas-1.tex - 2
+[01:05:16]: anim/oceanfishingbobber_robin_build.zip:oceanfishingbobber_robin_build--atlas-0.tex - 2
+[01:05:16]: anim/oceanfishing_hook.zip:oceanfishing_hook--atlas-0.tex - 2
+[01:05:16]: anim/yotb_spotlight.zip:yotb_spotlight--atlas-0.tex - 2
+[01:05:16]: anim/statue_ruins_gem.zip:statue_ruins_gem--atlas-0.tex - 2
+[01:05:16]: anim/splash_water_drop.zip:splash_water_drop--atlas-0.tex - 2
+[01:05:16]: anim/splash_ocean.zip:splash_ocean--atlas-0.tex - 2
+[01:05:16]: anim/marble.zip:marble--atlas-0.tex - 2
+[01:05:16]: anim/sewing_mannequin.zip:sewing_mannequin--atlas-0.tex - 2
+[01:05:16]: anim/hound_mutated.zip:hound_mutated--atlas-0.tex - 2
+[01:05:16]: anim/hound_red_ocean.zip:hound_red_ocean--atlas-0.tex - 2
+[01:05:16]: anim/oceanfishingbobber_goose_build.zip:oceanfishingbobber_goose_build--atlas-0.tex - 2
+[01:05:16]: anim/oceanfishing_bobber_sporty_build.zip:oceanfishing_bobber_sporty_build--atlas-0.tex - 2
+[01:05:16]: anim/oceanfishing_bobber_ball_build.zip:oceanfishing_bobber_ball_build--atlas-0.tex - 2
+[01:05:16]: anim/charlie_seat.zip:charlie_seat--atlas-0.tex - 2
+[01:05:16]: anim/oceanfishingbobber_crow_build.zip:oceanfishingbobber_crow_build--atlas-0.tex - 2
+[01:05:16]: anim/costume_doll_body.zip:costume_doll_body--atlas-0.tex - 2
+[01:05:16]: anim/costume_tree_body.zip:costume_tree_body--atlas-1.tex - 2
+[01:05:16]: anim/costume_blacksmith_body.zip:costume_blacksmith_body--atlas-0.tex - 2
+[01:05:16]: anim/playbill.zip:playbill--atlas-0.tex - 2
+[01:05:16]: anim/blueprint_sketch.zip:blueprint_sketch--atlas-0.tex - 2
+[01:05:16]: anim/oceanfishingbobber_canary_build.zip:oceanfishingbobber_canary_build--atlas-0.tex - 2
+[01:05:16]: anim/yotb_post_rug.zip:yotb_post_rug--atlas-0.tex - 2
+[01:05:16]: anim/die.zip:die--atlas-0.tex - 2
+[01:05:16]: anim/statue_ruins_small.zip:statue_ruins_small--atlas-0.tex - 2
+[01:05:16]: anim/costume_queen_body.zip:costume_queen_body--atlas-0.tex - 2
+[01:05:16]: CurlRequestManager::ClientThread::Main() complete
+[01:05:16]: HttpClient2 discarded 0 callbacks.
+[01:05:16]: Shutting down

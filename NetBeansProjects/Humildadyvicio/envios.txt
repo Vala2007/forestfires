@@ -1,0 +1,10 @@
+PKT-268EC326|Alejandro Rada|Andres rojas|mirador de cortepaz|Barranquilla|65.0|true|25500.0|En ciudad origen
+PKT-8FFE45B0|Abrahm basto|Venezuela|Enrriquecebollano #3333|malambo|34.0|true|26250.0|En ciudad origen
+PKT-72060F80|Abrahm basto|Venezuela|Enrriquecebollano #3333|malambo|34.0|true|26250.0|En ciudad origen
+PKT-FA0A2070|Abrahm basto|Venezuela|Enrriquecebollano #3333|malambo|34.0|true|26250.0|En ciudad origen
+PKT-4F99A6BB|Abraham basto|Barranquilla|Barranquilla|Barranquilla|50.0|true|25500.0|En ciudad origen
+PKT-EE534113|alejandro|andres|mirador de zaragocilla|Barranquilla|50.0|true|25500.0|En ciudad origen
+PKT-43B2863E|lolo|andrez|mirador de cortulia|Cartagena|75.0|true|26250.0|En ciudad origen
+PKT-8C929F48|Abraham navarro|Alejandro Rada|Mirador D zaragocilla Manzana C torre 2 apt 302|Cartagena|54.0|true|26250.0|En ciudad origen
+PKT-5382FB2F|coco|basile|madrid|mexico|12.0|true|26250.0|En ciudad origen
+PKT-0C6BEB06|coco|basile|madrid|mexico|12.0|false|17500.0|Entregado

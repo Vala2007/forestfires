@@ -1,0 +1,155 @@
+---
+title: "parcial"
+output: html_document
+date: "2025-08-26"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Invocamos las librerías y creamos el conjunto de datos
+
+```{r}
+library(tidyverse)
+library(Amelia)
+library(patchwork)
+
+
+df <- data.frame(A= c(75, 78, 80, 82, 85, 88, 90, 92, 95, 98),   # Grupo A
+                    B = c(68, 70, 72, 74, 76, 78, 80, NA, 84, 86),   # Grupo B
+                    C = c(60, 63, 66, 69, 72, 75, 78, 81, 84, NA))   # Grupo C
+```
+
+Vemos las dimensiones de nuestro conjunto de datos
+
+```{r}
+dim(df)
+```
+
+Vemos los tipos de variable
+
+```{r}
+str(df)
+```
+
+Verificamos la existencia de valores atípicos
+
+```{r}
+df %>%
+  summarise(across(everything(), ~ sum(is.na(.)), .names = "NA_{.col}"))
+
+missmap(df)
+
+A = na.omit(df$A)
+B = na.omit(df$B)
+C = na.omit(df$C)
+```
+
+```{r}
+df %>% 
+  summarise(
+    n = sum(!is.na(A)),
+    media = mean(A, na.rm = TRUE),
+    ds = sd(A, na.rm = TRUE),
+    mediana = median(A, na.rm = TRUE),
+    minimo = min(A, na.rm = TRUE),
+    maximo = max(A, na.rm = TRUE),
+    Q1 = quantile(A, 0.25, na.rm = TRUE),
+    Q3 = quantile(A, 0.75, na.rm = TRUE),
+    IQR = IQR(A, na.rm = TRUE) 
+  ) %>%
+mutate(variable = "A")-> var_A
+
+df %>% 
+  summarise(
+    n = sum(!is.na(B)),
+    media = mean(B, na.rm = TRUE),
+    ds = sd(B, na.rm = TRUE),
+    mediana = median(B, na.rm = TRUE),
+    minimo = min(B, na.rm = TRUE),
+    maximo = max(B, na.rm = TRUE),
+    Q1 = quantile(B, 0.25, na.rm = TRUE),
+    Q3 = quantile(B, 0.75, na.rm = TRUE),
+    IQR = IQR(B, na.rm = TRUE) 
+  ) %>%
+mutate(variable = "B")-> var_B
+
+df %>% 
+  summarise(
+    n = sum(!is.na(C)),
+    media = mean(C, na.rm = TRUE),
+    ds = sd(C, na.rm = TRUE),
+    mediana = median(C, na.rm = TRUE),
+    minimo = min(C, na.rm = TRUE),
+    maximo = max(C, na.rm = TRUE),
+    Q1 = quantile(C, 0.25, na.rm = TRUE),
+    Q3 = quantile(C, 0.75, na.rm = TRUE),
+    IQR = IQR(C, na.rm = TRUE) 
+  ) %>%
+mutate(variable = "C")-> var_C
+
+bind_rows(var_A, var_B, var_C) %>%
+  select(variable, everything())
+```
+
+Hacemos una tabla resumen de las variables, incluyendo media, desviación estándar, mediana, mínimo, máximo, Q1, Q3, y rango intercuartílico. Al final, agrupamos las 3 variables en una sola tabla
+
+```{r}
+p1 <- df %>%
+  ggplot(aes(x = "", y = A)) +
+  geom_boxplot(fill = "#a6cee3", color = "#1f78b4", outlier.color = "red") +
+  stat_summary(
+    fun = mean,
+    geom = "point",
+    shape = 20,
+    size = 3,
+    color = "black"
+  ) +
+  labs(
+    title = "Diagrama de cajas y bigotes de A",
+    x = "",
+    y = "A"
+  ) +
+  theme_bw()
+
+p2 <- df %>%
+  ggplot(aes(x = "", y = B)) +
+  geom_boxplot(fill = "#a6cee3", color = "#1f78b4", outlier.color = "red") +
+  stat_summary(
+    fun = mean,
+    geom = "point",
+    shape = 20,
+    size = 3,
+    color = "black"
+  ) +
+  labs(
+    title = "Diagrama de cajas y bigotes de B",
+    x = "",
+    y = "B"
+  ) +
+  theme_bw()
+
+p3 <- df %>%
+  ggplot(aes(x = "", y = C)) +
+  geom_boxplot(fill = "#a6cee3", color = "#1f78b4", outlier.color = "red") +
+  stat_summary(
+    fun = mean,
+    geom = "point",
+    shape = 20,
+    size = 3,
+    color = "black"
+  ) +
+  labs(
+    title = "Diagrama de cajas y bigotes de C",
+    x = "",
+    y = "C"
+  ) +
+  theme_bw()
+
+p1+p2+p3
+```
+
+```{r}
+
+```

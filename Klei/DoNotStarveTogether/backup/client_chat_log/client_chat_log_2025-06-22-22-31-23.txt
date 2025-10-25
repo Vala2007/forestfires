@@ -1,0 +1,46 @@
+[00:18:29]: [Say] (KU_dBOtmuzl) El_NAVRRO: lista?
+[00:19:29]: [Say] (KU_dBOtmuzl) El_NAVRRO: deja de hablarle a los arboles
+[00:19:57]: [Say] (KU_dBOtmuzl) El_NAVRRO: que no te coja la noche
+[00:20:27]: [Say] (KU_dBOtmuzl) El_NAVRRO: ayudame aqui
+[00:22:17]: [Say] (KU_dBOtmuzl) El_NAVRRO: te recomiendo seguirme
+[00:22:50]: [Say] (KU_dBOtmuzl) El_NAVRRO: cuidado con los arboles
+[00:23:00]: [Say] (KU_dBOtmuzl) El_NAVRRO: game la semilla de arbol
+[00:23:18]: [Say] (KU_dBOtmuzl) El_NAVRRO: no tienes de arbol?
+[00:23:28]: [Say] (KU_dBOtmuzl) El_NAVRRO: unde y
+[00:23:31]: [Say] (KU_NMtkZmU6) pili_dogo: ño
+[00:23:36]: [Say] (KU_dBOtmuzl) El_NAVRRO: jajajajajajaj te pusiste veneca
+[00:23:45]: [Say] (KU_dBOtmuzl) El_NAVRRO: no piques arboles pequeños
+[00:23:50]: [Say] (KU_dBOtmuzl) El_NAVRRO: ese si
+[00:23:54]: [Say] (KU_dBOtmuzl) El_NAVRRO: ñerda
+[00:23:56]: [Say] (KU_dBOtmuzl) El_NAVRRO: ven
+[00:24:30]: [Say] (KU_dBOtmuzl) El_NAVRRO: corre
+[00:24:38]: [Say] (KU_dBOtmuzl) El_NAVRRO: unde m para el mapa
+[00:25:32]: [Say] (KU_dBOtmuzl) El_NAVRRO: dame madera
+[00:26:07]: [Say] (KU_dBOtmuzl) El_NAVRRO: follow me
+[00:26:51]: [Say] (KU_dBOtmuzl) El_NAVRRO: que comiste
+[00:26:59]: [Say] (KU_NMtkZmU6) pili_dogo: zanahoria
+[00:27:04]: [Say] (KU_dBOtmuzl) El_NAVRRO: xd
+[00:27:12]: [Say] (KU_NMtkZmU6) pili_dogo: no tengo fuerza
+[00:27:14]: [Say] (KU_NMtkZmU6) pili_dogo: xd
+[00:27:27]: [Say] (KU_dBOtmuzl) El_NAVRRO: caza conejos
+[00:29:44]: [Say] (KU_dBOtmuzl) El_NAVRRO: cuanta comida tenes?
+[00:29:55]: [Say] (KU_NMtkZmU6) pili_dogo: 2 bayas
+[00:30:02]: [Say] (KU_dBOtmuzl) El_NAVRRO: de la barra
+[00:34:40]: [Say] (KU_NMtkZmU6) pili_dogo: volvi
+[00:35:40]: [Say] (KU_dBOtmuzl) El_NAVRRO: normalmente exploro para descubrir todo el mapa
+[00:35:47]: [Say] (KU_dBOtmuzl) El_NAVRRO: pero estamos un poquito atrasados
+[00:35:58]: [Say] (KU_dBOtmuzl) El_NAVRRO: COME
+[00:36:53]: [Say] (KU_dBOtmuzl) El_NAVRRO: COMO PEGO
+[00:37:11]: [Say] (KU_dBOtmuzl) El_NAVRRO: sigueme
+[00:37:56]: [Say] (KU_NMtkZmU6) pili_dogo: ya llego la comida
+[00:38:10]: [Say] (KU_NMtkZmU6) pili_dogo: ich habe to eat
+[00:38:37]: [Say] (KU_dBOtmuzl) El_NAVRRO: va a cenar?
+[00:38:42]: [Say] (KU_dBOtmuzl) El_NAVRRO: o era en el juego
+[00:38:44]: [Say] (KU_NMtkZmU6) pili_dogo: yea
+[00:38:48]: [Say] (KU_dBOtmuzl) El_NAVRRO: a xd
+[00:38:48]: [Say] (KU_NMtkZmU6) pili_dogo: a cenar
+[00:38:50]: [Say] (KU_NMtkZmU6) pili_dogo: aksjajj
+[00:38:56]: [Say] (KU_dBOtmuzl) El_NAVRRO: ponte aqui
+[00:39:10]: [Say] (KU_dBOtmuzl) El_NAVRRO: ok
+[00:39:14]: [Say] (KU_dBOtmuzl) El_NAVRRO: desconecta
+[00:39:21]: [Say] (KU_NMtkZmU6) pili_dogo: weno
